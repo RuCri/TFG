@@ -1,0 +1,1321 @@
+﻿Log file open, 07/19/17 18:22:22
+LogInit:Display: Running engine for game: Postwar
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1400629245) SRandInit(1400629245).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.513264
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.19-16.22.23:249][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.19-16.22.23:249][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.19-16.22.23:299][  0]LogInit: Computer: DESKTOP-T9NOKQO
+[2017.07.19-16.22.23:299][  0]LogInit: User: cripe
+[2017.07.19-16.22.23:299][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.19-16.22.23:299][  0]LogInit: High frequency timer resolution =2.435774 MHz
+[2017.07.19-16.22.23:299][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.19-16.22.23:299][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.19-16.22.23:299][  0]LogMemory: Process Physical Memory: 274.10 MB used, 274.10 MB peak
+[2017.07.19-16.22.23:299][  0]LogMemory: Process Virtual Memory: 261.25 MB used, 261.25 MB peak
+[2017.07.19-16.22.23:299][  0]LogMemory: Physical Memory: 5915.15 MB used,  10387.99 MB free, 16303.14 MB total
+[2017.07.19-16.22.23:299][  0]LogMemory: Virtual Memory: 624.58 MB used,  10387.99 MB free, 134217728.00 MB total
+[2017.07.19-16.22.23:451][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.07.19-16.22.23:451][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.07.19-16.22.24:627][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.19-16.22.25:245][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.07.19-16.22.25:245][  0]LogD3D11RHI:       2017/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.19-16.22.25:254][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.07.19-16.22.25:254][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.19-16.22.25:256][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.19-16.22.25:256][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.19-16.22.25:256][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.19-16.22.25:264][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.19-16.22.25:264][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
+[2017.07.19-16.22.25:264][  0]LogWindows: EnumDisplayDevices:
+[2017.07.19-16.22.25:264][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.07.19-16.22.25:264][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.07.19-16.22.25:264][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.07.19-16.22.25:264][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.07.19-16.22.25:264][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.07.19-16.22.25:264][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.07.19-16.22.25:264][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.07.19-16.22.25:265][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.19-16.22.25:905][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.19-16.22.25:983][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.19-16.22.25:989][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Intermediate/Shaders/WorkingDirectory/2416/).
+[2017.07.19-16.22.25:989][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cripe/AppData/Local/Temp/UnrealShaderWorkingDir/B97090CF4BF63E1EDE4F2D970147AD4D/'.
+[2017.07.19-16.22.25:990][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.19-16.22.33:317][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.19-16.22.33:371][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.19-16.22.33:428][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.19-16.22.33:485][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.19-16.22.33:545][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.19-16.22.33:606][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.19-16.22.33:682][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.19-16.22.33:739][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.19-16.22.33:786][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.19-16.22.33:845][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.19-16.22.33:918][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.19-16.22.34:008][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.19-16.22.34:076][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.19-16.22.34:138][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.19-16.22.34:191][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.19-16.22.34:299][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.19-16.22.34:299][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.19-16.22.34:345][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.19-16.22.34:448][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.19-16.22.34:474][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.19-16.22.34:522][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.19-16.22.34:569][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.19-16.22.34:617][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.19-16.22.34:668][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.19-16.22.34:668][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.19-16.22.35:274][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.19-16.22.35:652][  0]LogDerivedDataCache: Loaded boot cache 0.38s 90MB C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.19-16.22.35:652][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.19-16.22.35:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.19-16.22.35:652][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.19-16.22.35:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.19-16.22.35:652][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.19-16.22.35:676][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.19-16.22.35:689][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cripe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.19-16.22.35:703][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.19-16.22.35:707][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.19-16.22.35:711][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.19-16.22.35:711][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.19-16.22.36:476][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.19-16.22.36:623][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.19-16.22.36:807][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.19-16.22.36:863][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.19-16.22.36:918][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.19-16.22.36:918][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.19-16.22.36:918][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.19-16.22.37:724][  0]LogNetVersion: Postwar , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2296384490)
+[2017.07.19-16.22.37:820][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2017.07.19-16.22.37:877][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.027766 seconds
+[2017.07.19-16.22.37:888][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.19-16.22.37:888][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.19-16.22.37:888][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.19-16.22.37:957][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.19-16.22.41:500][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.19-16.22.41:541][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.19-16.22.42:138][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.19-16.22.42:590][  0]SourceControl: Info Source control is disabled
+[2017.07.19-16.22.42:658][  0]SourceControl: Info Source control is disabled
+[2017.07.19-16.22.42:714][  0]SourceControl: Info Source control is disabled
+[2017.07.19-16.22.42:766][  0]SourceControl: Info Source control is disabled
+[2017.07.19-16.22.43:592][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.19-16.22.44:232][  0]LogEngine: Initializing Engine...
+[2017.07.19-16.22.44:235][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.19-16.22.44:492][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.19-16.22.44:492][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.19-16.22.44:648][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.19-16.22.44:666][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-16.22.44:684][  0]LogInit: FAudioDevice initialized.
+[2017.07.19-16.22.44:728][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.19-16.22.44:740][  0]LogInit: Texture streaming: Enabled
+[2017.07.19-16.22.44:831][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.19-16.22.45:066][  0]LogInit: Transaction tracking system initialized
+[2017.07.19-16.22.45:396][  0]BlueprintLog: New page: Editor Load
+[2017.07.19-16.22.46:363][  0]LocalizationService: Info Localization service is disabled
+[2017.07.19-16.22.47:067][  0]LogConsoleResponse:Display: 
+[2017.07.19-16.22.47:291][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.19-16.22.47:291][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.19-16.22.47:584][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/' took 0.02s
+[2017.07.19-16.22.48:421][  0]SourceControl: Info Source control is disabled
+[2017.07.19-16.22.48:423][  0]Cmd: MAP LOAD FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.19-16.22.48:424][  0]LightingResults: New page: Lighting Build
+[2017.07.19-16.22.48:470][  0]MapCheck: New page: Map Check
+[2017.07.19-16.22.48:470][  0]LightingResults: New page: Lighting Build
+[2017.07.19-16.22.49:323][  0]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-16.22.49:323][  0]LogBlueprint:Warning: [WeaponParent] 'Opac' variable not found. Base class was probably changed.
+[2017.07.19-16.22.49:378][  0]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-16.22.52:272][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-16.22.52:300][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.19-16.22.52:330][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.19-16.22.52:429][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.57ms to complete.
+[2017.07.19-16.22.52:429][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.007
+[2017.07.19-16.22.52:625][  0]LogCollectionManager: Loaded 0 collections in 0.002141 seconds
+[2017.07.19-16.22.52:721][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Collections/' took 0.01s
+[2017.07.19-16.22.52:721][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Developers/cripe/Collections/' took 0.01s
+[2017.07.19-16.22.52:721][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Collections/' took 0.01s
+[2017.07.19-16.22.52:721][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.19-16.22.52:733][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2329 classes and 491 folders.
+[2017.07.19-16.22.52:799][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.19-16.22.52:917][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.19-16.22.52:967][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.19-16.22.53:185][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.19-16.22.53:199][  0]LogSlate: Took 0.001318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.19-16.22.53:202][  0]LogSlate: Took 0.001587 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.19-16.22.53:211][  0]LogSlate: Took 0.001178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.19-16.22.53:322][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.07.19-16.22.53:493][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.19-16.22.53:561][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.19-16.22.53:562][  0]LogLoad: (Engine Initialization) Total time: 33.46 seconds
+[2017.07.19-16.22.53:562][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.38 seconds
+[2017.07.19-16.22.53:562][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.19-16.22.53:562][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.19-16.22.53:901][  0]LogOcInput: OculusInput pre-init called
+[2017.07.19-16.22.53:901][  0]LogHMD: Starting GearVRController plugin
+[2017.07.19-16.22.53:929][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.19-16.22.53:981][  0]LogSlate: Took 0.001331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-16.22.54:249][  1]LogAssetRegistry: Asset discovery search completed in 16.4515 seconds
+[2017.07.19-16.22.54:251][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.19-16.22.54:251][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.07.19-16.22.54:912][  3]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-16.26.29:816][171]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.19-16.26.29:878][173]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Postwar
+[2017.07.19-16.26.29:878][173]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.19-16.26.29:878][173]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.16
+[2017.07.19-16.26.29:878][173]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.19-16.26.29:881][173]LogTemp: BranchPath = DESKTOP-T9NOKQO/D/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-T9NOKQO/D/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.19-16.26.29:896][173]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\cripe\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.19-16.38.36:166][793]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-16.38.36:444][793]LogSavePackage: Save=214.76ms
+[2017.07.19-16.38.36:444][793]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMapA75F576B4EFF7A531E77F7A0A20336DD.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.19-16.38.36:446][793]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.19-16.38.37:546][793]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.19-16.38.38:324][793]LogSavePackage: Save=1705.26ms
+[2017.07.19-16.38.38:324][793]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMap_BuiltDataD8B58EEB4AAC82BABB975285E931EA67.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.07.19-16.38.38:327][793]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.07.19-16.39.22:229][129]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.07.19-16.39.22:960][129]LogSlate: Took 0.001221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.19-16.39.23:102][130]LogSlate: Took 0.001555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.19-16.42.58:264][442]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1).
+[2017.07.19-16.44.41:994][845]BlueprintLog: New page: Compile WeaponInterface
+[2017.07.19-16.44.42:248][845]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-16.44.42:248][845]LogBlueprint:Warning: [WeaponParent] 'Opac' variable not found. Base class was probably changed.
+[2017.07.19-16.44.42:978][870]LogSavePackage: Save=19.31ms
+[2017.07.19-16.44.42:978][870]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponInterface166B0CCA4BE644640FC21D990057C709.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponInterface.uasset'
+[2017.07.19-16.44.42:982][870]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponInterface.uasset
+[2017.07.19-16.44.45:984][ 18]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-16.44.46:316][ 18]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-16.44.50:840][179]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-16.44.52:308][209]LogSavePackage: Save=113.25ms
+[2017.07.19-16.44.52:308][209]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParentB5DB9800417F882CECFCB88ED7A5D09B.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-16.44.52:335][209]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-16.45.31:595][ 56]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.07.19-16.45.31:691][ 56]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-16.45.33:315][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.07.19-16.45.33:618][ 94]LogSavePackage: Save=294.80ms
+[2017.07.19-16.45.33:618][ 94]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter87D79B2740D0CC5D7A2B59A3B4B4C3E7.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.07.19-16.45.33:621][ 94]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.07.19-16.49.23:944][794]LogSlate: Took 0.001421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.19-16.49.33:252][199]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-16.49.33:532][199]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-16.49.35:631][230]LogSavePackage: Save=116.61ms
+[2017.07.19-16.49.35:631][230]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParentEB85A8724B3684AE54E4A5976D6CBDD0.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-16.49.35:634][230]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-16.50.14:322][912]LogSavePackage: Save=198.14ms
+[2017.07.19-16.50.14:322][912]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMap_Auto1F48A6BA9410F8F9B5742B697A5EE6472.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.07.19-16.50.14:324][912]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.07.19-16.50.14:325][912]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.248
+[2017.07.19-16.50.14:325][912]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.248
+[2017.07.19-16.50.14:330][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK] ([1] browsable assets)...
+[2017.07.19-16.50.14:347][912]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK.AK]
+[2017.07.19-16.50.14:347][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK]
+[2017.07.19-16.50.14:510][912]LogSavePackage: Save=157.41ms
+[2017.07.19-16.50.14:510][912]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/AK_Auto1FF263EE149428B23E5335D9F029A788F.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK_Auto1.uasset'
+[2017.07.19-16.50.14:512][912]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK_Auto1.uasset
+[2017.07.19-16.50.14:513][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1] ([1] browsable assets)...
+[2017.07.19-16.50.14:558][912]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.M4a1]
+[2017.07.19-16.50.14:558][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1]
+[2017.07.19-16.50.14:717][912]LogSavePackage: Save=152.95ms
+[2017.07.19-16.50.14:717][912]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/M4a1_Auto1DAE36DD447DFE49CBBAEAB8ED805BF42.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1_Auto1.uasset'
+[2017.07.19-16.50.14:719][912]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1_Auto1.uasset
+[2017.07.19-16.50.14:720][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun] ([1] browsable assets)...
+[2017.07.19-16.50.14:764][912]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.shotgun]
+[2017.07.19-16.50.14:764][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun]
+[2017.07.19-16.50.14:928][912]LogSavePackage: Save=157.27ms
+[2017.07.19-16.50.14:928][912]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/shotgun_Auto17D5B0C634D644ACDB1263FA6B2879D91.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun_Auto1.uasset'
+[2017.07.19-16.50.14:946][912]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun_Auto1.uasset
+[2017.07.19-16.50.14:946][912]LogFileHelpers: Auto-saving content packages took 0.618
+[2017.07.19-16.54.48:596][993]BlueprintLog: New page: Compile BasicAmmo
+[2017.07.19-16.54.48:624][993]LogBlueprint:Warning: [Compiler BasicAmmo] Warning Could not find a variable named "municion" in 'WeaponParent_C'.
+Make sure 'WeaponParent_C' has been compiled for  Get municion
+[2017.07.19-16.54.48:625][993]LogBlueprint:Warning: [Compiler BasicAmmo] Warning Could not find a variable named "municion" in 'WeaponParent_C'.
+Make sure 'WeaponParent_C' has been compiled for  Get municion
+[2017.07.19-16.54.48:626][993]LogBlueprint:Error: [Compiler BasicAmmo] Error The property associated with  Municion  could not be found
+[2017.07.19-16.54.48:626][993]LogBlueprint:Error: [Compiler BasicAmmo] Error The property associated with  Municion  could not be found
+[2017.07.19-16.54.48:936][993]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "municion" in 'WeaponParent_C'.
+Make sure 'WeaponParent_C' has been compiled for  Get municion
+[2017.07.19-16.54.48:936][993]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "municion" in 'WeaponParent_C'.
+Make sure 'WeaponParent_C' has been compiled for  Get municion
+[2017.07.19-16.54.48:936][993]BlueprintEditorCompileResults:Error: Error The property associated with  Municion  could not be found
+[2017.07.19-16.54.48:936][993]BlueprintEditorCompileResults:Error: Error The property associated with  Municion  could not be found
+[2017.07.19-16.54.48:936][993]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.19-16.54.48:937][993]LogBlueprint:Warning: [Compiler BasicAmmo] Warning [1948.84] Compile of BasicAmmo failed. 2 Fatal Issue(s) 2 Warning(s) [in 342 ms] (/Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo)
+[2017.07.19-16.54.49:440][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/HUD/BasicAmmo" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset" SILENT=true
+[2017.07.19-16.54.49:491][ 18]LogSavePackage: Save=39.30ms
+[2017.07.19-16.54.49:491][ 18]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/BasicAmmo2858AA424110E0465E170C80D77C6696.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset'
+[2017.07.19-16.54.49:494][ 18]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset
+[2017.07.19-16.55.07:749][961]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-16.55.08:093][961]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-16.55.10:464][990]LogSavePackage: Save=141.66ms
+[2017.07.19-16.55.10:464][990]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParentE78D48B74231E05890F6259389A6E603.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-16.55.10:467][990]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-16.55.40:772][637]BlueprintLog: New page: Compile BasicAmmo
+[2017.07.19-16.55.40:960][637]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.19-16.55.42:450][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/HUD/BasicAmmo" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset" SILENT=true
+[2017.07.19-16.55.42:500][710]LogSavePackage: Save=42.55ms
+[2017.07.19-16.55.42:500][710]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/BasicAmmoFDCAA5864647EC63387D8CB91E66492A.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset'
+[2017.07.19-16.55.42:504][710]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset
+[2017.07.19-16.57.29:072][795]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-16.57.30:590][815]LogSavePackage: Save=155.49ms
+[2017.07.19-16.57.30:590][815]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParentF545571043E83E6F67E21AB594231210.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-16.57.30:594][815]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-16.59.17:047][173]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-16.59.18:585][193]LogSavePackage: Save=147.86ms
+[2017.07.19-16.59.18:585][193]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParent7DC6903B4263D419F64A29904CB8DC5B.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-16.59.18:588][193]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-16.59.32:448][956]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-16.59.33:679][972]LogSavePackage: Save=114.92ms
+[2017.07.19-16.59.33:679][972]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParent1A9D529242902267288F08AEF6EC7E9D.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-16.59.33:682][972]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-17.00.23:565][560]LogSavePackage: Save=255.29ms
+[2017.07.19-17.00.23:565][560]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMap_Auto2ACFE3D04419D3D5826B3068C0A887D6C.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.07.19-17.00.23:606][560]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.07.19-17.00.23:608][560]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.355
+[2017.07.19-17.00.23:608][560]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.355
+[2017.07.19-17.00.23:613][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK] ([1] browsable assets)...
+[2017.07.19-17.00.23:661][560]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK.AK]
+[2017.07.19-17.00.23:661][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK]
+[2017.07.19-17.00.23:868][560]LogSavePackage: Save=200.34ms
+[2017.07.19-17.00.23:868][560]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/AK_Auto2CA5AA01E4E3002C671DE90A33223312C.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK_Auto2.uasset'
+[2017.07.19-17.00.23:870][560]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK_Auto2.uasset
+[2017.07.19-17.00.23:871][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1] ([1] browsable assets)...
+[2017.07.19-17.00.23:919][560]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.M4a1]
+[2017.07.19-17.00.23:919][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1]
+[2017.07.19-17.00.24:122][560]LogSavePackage: Save=196.20ms
+[2017.07.19-17.00.24:122][560]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/M4a1_Auto2F469EC284E925B14D710F8BBEB91D060.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1_Auto2.uasset'
+[2017.07.19-17.00.24:124][560]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1_Auto2.uasset
+[2017.07.19-17.00.24:126][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun] ([1] browsable assets)...
+[2017.07.19-17.00.24:174][560]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.shotgun]
+[2017.07.19-17.00.24:174][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun]
+[2017.07.19-17.00.24:386][560]LogSavePackage: Save=204.24ms
+[2017.07.19-17.00.24:386][560]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/shotgun_Auto2BBC903CB455F992F16E2519F888F7192.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun_Auto2.uasset'
+[2017.07.19-17.00.24:389][560]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun_Auto2.uasset
+[2017.07.19-17.00.24:389][560]LogFileHelpers: Auto-saving content packages took 0.778
+[2017.07.19-17.05.52:623][683]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.05.52:838][683]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.05.52:839][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.05.52:844][683]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:05:52 PM)
+[2017.07.19-17.05.52:844][683]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.05.52:875][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030386s)
+[2017.07.19-17.05.52:876][683]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.05.52:876][683]LogPlayLevel: PIE: World Init took: (0.001344s)
+[2017.07.19-17.05.52:877][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032747s)
+[2017.07.19-17.05.52:925][683]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.05.52:937][683]LogInit: FAudioDevice initialized.
+[2017.07.19-17.05.52:988][683]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.05.52:994][683]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.05.52
+[2017.07.19-17.05.52:996][683]LogWorld: Bringing up level for play took: 0.006013
+[2017.07.19-17.05.53:068][683]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.07.19-17.05.53:072][683]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.244
+[2017.07.19-17.05.53:073][683]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.05.53:108][683]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.53:109][683]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.05.53:206][684]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.53:206][684]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.05.53:238][685]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.53:239][685]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.05.53:267][686]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.53:267][686]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.05.53:368][687]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.53:368][687]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.05.53:388][688]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.53:388][688]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.05.53:407][689]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.53:407][689]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.05.53:426][690]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.53:426][690]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.05.53:444][691]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.05.57:246][891]LogBlueprintUserMessages: [M4a1Drop_232] Aun no hemos comprado este arma
+[2017.07.19-17.05.57:635][911]LogBlueprintUserMessages: [M4a1Drop_232] Compro m4a1
+[2017.07.19-17.05.58:386][949]LogBlueprintUserMessages: [shotgunDrop_110] Aun no hemos comprado este arma
+[2017.07.19-17.05.59:746][ 19]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.00:213][ 36]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.00:561][ 51]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.01:069][ 76]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.01:519][ 98]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.01:977][122]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.02:492][149]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.02:933][172]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.03:317][192]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.03:705][212]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.04:150][235]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.04:605][259]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.05:035][281]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.05:555][308]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.05:862][324]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.06:312][347]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.06:851][375]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.07:163][391]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.07:897][430]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.08:348][453]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.08:752][474]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.09:750][525]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.10:134][545]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.10:563][567]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.11:244][603]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.11:889][636]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.12:332][659]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.12:839][685]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.13:243][706]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.14:942][794]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.15:489][822]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.15:977][847]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.16:462][872]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.17:004][900]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.17:464][924]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.06.18:266][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.06.18:345][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.07.53:355][918]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-17.07.53:689][918]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-17.07.54:914][933]LogSavePackage: Save=152.72ms
+[2017.07.19-17.07.54:914][933]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParent89A5E050420A61B51C83ADB9266CB687.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-17.07.54:918][933]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-17.08.09:981][720]BlueprintLog: New page: Compile AK
+[2017.07.19-17.08.10:835][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset" SILENT=true
+[2017.07.19-17.08.11:049][741]LogSavePackage: Save=206.76ms
+[2017.07.19-17.08.11:049][741]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/AK804267A6467B2EAEAA0551B39EF32A98.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset'
+[2017.07.19-17.08.11:095][741]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset
+[2017.07.19-17.08.20:204][182]BlueprintLog: New page: Compile M4a1
+[2017.07.19-17.08.21:026][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset" SILENT=true
+[2017.07.19-17.08.21:233][208]LogSavePackage: Save=199.42ms
+[2017.07.19-17.08.21:233][208]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/M4a1225BF1C14A8F3589396D7490BE16102E.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset'
+[2017.07.19-17.08.21:258][208]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset
+[2017.07.19-17.08.30:753][670]BlueprintLog: New page: Compile shotgun
+[2017.07.19-17.08.31:924][693]LogSavePackage: Save=269.17ms
+[2017.07.19-17.08.31:924][693]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/shotgun42C19A4846E2A763F07F3AADC666A9B1.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.uasset'
+[2017.07.19-17.08.31:928][693]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.uasset
+[2017.07.19-17.08.38:009][926]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.08.38:039][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.08.38:040][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.08.38:040][926]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:08:38 PM)
+[2017.07.19-17.08.38:040][926]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.08.38:067][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027320s)
+[2017.07.19-17.08.38:068][926]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.08.38:068][926]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2017.07.19-17.08.38:068][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028714s)
+[2017.07.19-17.08.38:114][926]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.08.38:125][926]LogInit: FAudioDevice initialized.
+[2017.07.19-17.08.38:159][926]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.08.38:164][926]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.08.38
+[2017.07.19-17.08.38:164][926]LogWorld: Bringing up level for play took: 0.003834
+[2017.07.19-17.08.38:166][926]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.662
+[2017.07.19-17.08.38:167][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.08.38:179][926]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.38:179][926]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.08.38:273][927]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.38:273][927]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.08.38:291][928]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.38:291][928]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.08.38:345][929]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.38:345][929]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.08.38:400][930]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.38:400][930]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.08.38:419][931]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.38:419][931]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.08.38:437][932]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.38:437][932]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.08.38:454][933]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.38:454][933]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.08.38:471][934]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_7
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.08.42:058][145]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.19-17.08.42:332][161]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.19-17.08.43:322][218]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.43:642][237]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.43:964][256]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.44:424][283]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.44:732][301]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.48:195][506]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.48:584][529]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.48:916][548]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.49:294][569]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.49:809][596]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.50:398][628]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.51:043][663]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.51:420][683]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.51:858][707]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.52:351][733]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.52:719][753]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.53:098][774]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.53:469][794]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.53:942][820]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.54:294][839]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.54:606][856]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.54:999][877]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.55:369][897]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.55:751][918]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.56:191][942]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.56:682][967]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.57:167][993]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.57:496][ 11]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.57:850][ 30]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.58:228][ 50]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.58:547][ 67]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.58:951][ 89]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.59:307][108]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.59:625][125]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.08.59:963][144]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.00:671][177]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.01:055][196]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.01:398][213]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.01:743][231]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.02:159][253]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.02:512][271]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.02:857][290]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.03:211][309]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.03:521][325]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.03:890][345]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.04:817][392]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.05:231][414]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.05:613][434]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.05:930][451]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.06:285][470]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.07:535][537]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.07:847][554]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.08:219][574]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.08:552][592]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.08:998][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.09.09:078][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.09.45:731][265]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.09.45:764][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.09.45:765][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.09.45:765][265]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:09:45 PM)
+[2017.07.19-17.09.45:765][265]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.09.45:786][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021626s)
+[2017.07.19-17.09.45:787][265]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.09.45:788][265]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2017.07.19-17.09.45:788][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023322s)
+[2017.07.19-17.09.45:830][265]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.09.45:847][265]LogInit: FAudioDevice initialized.
+[2017.07.19-17.09.45:879][265]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.09.45:882][265]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.09.45
+[2017.07.19-17.09.45:883][265]LogWorld: Bringing up level for play took: 0.003104
+[2017.07.19-17.09.45:884][265]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.056
+[2017.07.19-17.09.45:885][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.09.45:924][265]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.45:924][265]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.09.45:950][266]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.45:950][266]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.09.45:968][267]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.45:968][267]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.09.45:989][268]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.45:989][268]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.09.46:008][269]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.46:008][269]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.09.46:031][270]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.46:031][270]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.09.46:052][271]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.46:052][271]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.09.46:075][272]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.46:075][272]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.09.46:098][273]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_11
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.09.49:803][435]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.19-17.09.50:076][447]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.19-17.09.51:285][497]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.09.54:514][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.09.54:601][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.10.03:041][992]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.10.03:074][992]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.10.03:074][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.10.03:074][992]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:10:03 PM)
+[2017.07.19-17.10.03:074][992]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.10.03:097][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022269s)
+[2017.07.19-17.10.03:098][992]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.10.03:098][992]LogPlayLevel: PIE: World Init took: (0.001608s)
+[2017.07.19-17.10.03:099][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024336s)
+[2017.07.19-17.10.03:143][992]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.10.03:158][992]LogInit: FAudioDevice initialized.
+[2017.07.19-17.10.03:193][992]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.10.03:197][992]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.10.03
+[2017.07.19-17.10.03:198][992]LogWorld: Bringing up level for play took: 0.003825
+[2017.07.19-17.10.03:200][992]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.371
+[2017.07.19-17.10.03:200][992]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.10.03:243][992]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.03:243][992]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.03:275][993]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.03:275][993]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.03:297][994]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.03:297][994]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.03:323][995]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.03:323][995]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.03:348][996]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.03:348][996]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.03:372][997]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.03:372][997]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.03:401][998]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.03:401][998]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.03:428][999]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.03:428][999]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.03:450][  0]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_12
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.08:129][218]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.19-17.10.08:355][228]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.19-17.10.09:150][264]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.09:832][295]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.11:925][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.10.11:990][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.10.26:203][995]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.10.26:238][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.10.26:238][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.10.26:238][995]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:10:26 PM)
+[2017.07.19-17.10.26:238][995]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.10.26:261][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022263s)
+[2017.07.19-17.10.26:262][995]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.10.26:262][995]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2017.07.19-17.10.26:262][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023874s)
+[2017.07.19-17.10.26:307][995]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.10.26:322][995]LogInit: FAudioDevice initialized.
+[2017.07.19-17.10.26:359][995]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.10.26:364][995]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.10.26
+[2017.07.19-17.10.26:364][995]LogWorld: Bringing up level for play took: 0.003702
+[2017.07.19-17.10.26:366][995]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.462
+[2017.07.19-17.10.26:366][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.10.26:411][995]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.26:411][995]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.26:438][996]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.26:438][996]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.26:461][997]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.26:461][997]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.26:487][998]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.26:487][998]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.26:509][999]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.26:510][999]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.26:532][  0]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.26:532][  0]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.26:553][  1]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.26:553][  1]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.26:576][  2]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.26:576][  2]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.10.26:598][  3]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_13
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.10.32:503][269]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.19-17.10.32:937][291]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.19-17.10.33:827][336]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.34:679][381]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.35:100][403]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.35:443][421]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.35:768][438]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.36:218][461]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.36:624][482]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.37:456][525]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.10.37:755][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.10.37:815][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.11.35:259][ 84]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-17.11.36:755][100]LogSavePackage: Save=156.63ms
+[2017.07.19-17.11.36:755][100]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParentC876085A437014508AA8E6BA77050AB6.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-17.11.36:759][100]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-17.11.59:366][185]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-17.12.01:469][218]LogSavePackage: Save=169.65ms
+[2017.07.19-17.12.01:469][218]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParentCECEB21341EF41AD630337BC61AD6B16.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-17.12.01:473][218]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-17.12.06:878][425]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.12.06:912][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.12.06:912][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.12.06:912][425]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:12:06 PM)
+[2017.07.19-17.12.06:912][425]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.12.06:939][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026274s)
+[2017.07.19-17.12.06:940][425]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.12.06:940][425]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2017.07.19-17.12.06:940][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027890s)
+[2017.07.19-17.12.06:986][425]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.12.07:000][425]LogInit: FAudioDevice initialized.
+[2017.07.19-17.12.07:034][425]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.12.07:039][425]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.12.07
+[2017.07.19-17.12.07:040][425]LogWorld: Bringing up level for play took: 0.003852
+[2017.07.19-17.12.07:041][425]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.213
+[2017.07.19-17.12.07:042][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.12.07:089][425]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.07:089][425]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.12.07:155][426]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.07:155][426]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.12.07:176][427]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.07:176][427]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.12.07:197][428]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.07:197][428]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.12.07:220][429]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.07:220][429]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.12.07:243][430]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.07:243][430]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.12.07:265][431]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.07:265][431]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.12.07:291][432]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.07:291][432]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.12.07:315][433]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BasicAmmo_C_18
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.12.11:279][611]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.19-17.12.11:678][629]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.19-17.12.13:353][702]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.14:240][742]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.14:606][758]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.14:933][773]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.15:381][793]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.20:723][ 36]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.21:032][ 50]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.21:442][ 68]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.21:776][ 83]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.22:235][103]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.24:890][222]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.25:601][254]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.26:033][273]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.26:391][288]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.26:719][302]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.27:045][316]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.27:382][330]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.12.27:870][350]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.13.57:065][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.13.57:142][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.16.40:259][966]LogSavePackage: Save=256.71ms
+[2017.07.19-17.16.40:259][966]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMap_Auto39A91A1D7419B42CDFE709F98EFF69237.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2017.07.19-17.16.40:261][966]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2017.07.19-17.16.40:265][966]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.316
+[2017.07.19-17.16.40:265][966]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.316
+[2017.07.19-17.16.40:269][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/PostWar/HUD/BasicAmmo] ([1] browsable assets)...
+[2017.07.19-17.16.40:269][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/HUD/BasicAmmo]
+[2017.07.19-17.16.40:332][966]LogSavePackage: Save=54.24ms
+[2017.07.19-17.16.40:332][966]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/BasicAmmo_Auto38C634787488089C937EEBFB414D1FD2E.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/HUD/BasicAmmo_Auto3.uasset'
+[2017.07.19-17.16.40:334][966]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/HUD/BasicAmmo_Auto3.uasset
+[2017.07.19-17.16.40:335][966]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK] ([1] browsable assets)...
+[2017.07.19-17.16.40:400][966]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK.AK]
+[2017.07.19-17.16.40:400][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK]
+[2017.07.19-17.16.40:608][966]LogSavePackage: Save=201.16ms
+[2017.07.19-17.16.40:608][966]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/AK_Auto3BABF82634317EF69B7A1A7B910ECD368.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK_Auto3.uasset'
+[2017.07.19-17.16.40:610][966]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK_Auto3.uasset
+[2017.07.19-17.16.40:612][966]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1] ([1] browsable assets)...
+[2017.07.19-17.16.40:659][966]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.M4a1]
+[2017.07.19-17.16.40:659][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1]
+[2017.07.19-17.16.40:870][966]LogSavePackage: Save=203.53ms
+[2017.07.19-17.16.40:870][966]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/M4a1_Auto3481D10A84DA506CEF9CB1586D2762940.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1_Auto3.uasset'
+[2017.07.19-17.16.40:872][966]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1_Auto3.uasset
+[2017.07.19-17.16.40:874][966]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun] ([1] browsable assets)...
+[2017.07.19-17.16.40:921][966]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.shotgun]
+[2017.07.19-17.16.40:921][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun]
+[2017.07.19-17.16.41:129][966]LogSavePackage: Save=200.29ms
+[2017.07.19-17.16.41:129][966]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/shotgun_Auto30015333B48C30EE7E225AF9D44F422D5.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun_Auto3.uasset'
+[2017.07.19-17.16.41:131][966]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun_Auto3.uasset
+[2017.07.19-17.16.41:131][966]LogFileHelpers: Auto-saving content packages took 0.864
+[2017.07.19-17.19.40:419][972]BlueprintLog: New page: Compile BasicAmmo
+[2017.07.19-17.19.40:634][972]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.19-17.19.41:172][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/HUD/BasicAmmo" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset" SILENT=true
+[2017.07.19-17.19.41:247][993]LogSavePackage: Save=68.03ms
+[2017.07.19-17.19.41:247][993]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/BasicAmmoDA5CADC541C976DC50F15580ADE92445.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset'
+[2017.07.19-17.19.41:252][993]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset
+[2017.07.19-17.19.42:345][ 39]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.19.42:379][ 39]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.19.42:379][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.19.42:380][ 39]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:19:42 PM)
+[2017.07.19-17.19.42:380][ 39]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.19.42:407][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027194s)
+[2017.07.19-17.19.42:408][ 39]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.19.42:408][ 39]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2017.07.19-17.19.42:408][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028801s)
+[2017.07.19-17.19.42:453][ 39]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.19.42:466][ 39]LogInit: FAudioDevice initialized.
+[2017.07.19-17.19.42:499][ 39]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.19.42:504][ 39]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.19.42
+[2017.07.19-17.19.42:504][ 39]LogWorld: Bringing up level for play took: 0.003790
+[2017.07.19-17.19.42:507][ 39]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.322
+[2017.07.19-17.19.42:507][ 39]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.19.44:062][122]LogScript:Warning: Accessed None trying to read property Equipada
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:022D
+[2017.07.19-17.19.44:062][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Equipada from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Recarga in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property Equipada
+[2017.07.19-17.19.46:005][234]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.19-17.19.46:248][248]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.19-17.19.47:276][306]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.19.47:627][326]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.19.48:037][349]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.19.51:204][532]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.19.51:506][549]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.19.51:818][567]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.19.54:480][720]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.19.54:794][738]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.19.57:954][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.19.58:028][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.22.40:523][393]BlueprintLog: New page: Compile BasicAmmo
+[2017.07.19-17.22.40:815][393]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.19-17.22.41:522][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/HUD/BasicAmmo" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset" SILENT=true
+[2017.07.19-17.22.41:630][406]LogSavePackage: Save=94.55ms
+[2017.07.19-17.22.41:630][406]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/BasicAmmo72B0FB6D47F5810A23974DB78A68C6D2.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset'
+[2017.07.19-17.22.41:635][406]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset
+[2017.07.19-17.24.16:533][480]BlueprintLog: New page: Compile BasicAmmo
+[2017.07.19-17.24.16:824][480]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.19-17.24.17:399][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/HUD/BasicAmmo" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset" SILENT=true
+[2017.07.19-17.24.17:497][490]LogSavePackage: Save=84.91ms
+[2017.07.19-17.24.17:498][490]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/BasicAmmoF99A04B14DA00DF5620E08B672FB1146.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset'
+[2017.07.19-17.24.17:501][490]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset
+[2017.07.19-17.24.19:900][563]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.24.19:958][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.24.19:958][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.24.19:959][563]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:24:19 PM)
+[2017.07.19-17.24.19:959][563]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.24.19:997][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038841s)
+[2017.07.19-17.24.19:999][563]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.24.19:999][563]LogPlayLevel: PIE: World Init took: (0.001478s)
+[2017.07.19-17.24.20:000][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040912s)
+[2017.07.19-17.24.20:081][563]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.24.20:104][563]LogInit: FAudioDevice initialized.
+[2017.07.19-17.24.20:144][563]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.24.20:149][563]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.24.20
+[2017.07.19-17.24.20:149][563]LogWorld: Bringing up level for play took: 0.003995
+[2017.07.19-17.24.20:151][563]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.677
+[2017.07.19-17.24.20:152][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.24.20:168][563]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.20:169][563]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.20:169][563]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.20:217][564]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.20:217][564]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.20:217][564]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.20:232][565]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.20:232][565]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.20:232][565]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.20:259][566]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.20:259][566]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.20:259][566]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.20:285][567]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.20:285][567]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.20:285][567]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.20:306][568]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.20:306][568]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.23:307][721]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.24.23:383][721]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.24.34:682][969]BlueprintLog: New page: Compile BasicAmmo
+[2017.07.19-17.24.34:982][969]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.19-17.24.35:531][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/HUD/BasicAmmo" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset" SILENT=true
+[2017.07.19-17.24.35:637][979]LogSavePackage: Save=95.34ms
+[2017.07.19-17.24.35:637][979]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/BasicAmmo1B13EAF64F61ADF31DDFCAA3C6C17867.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset'
+[2017.07.19-17.24.35:641][979]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/HUD/BasicAmmo.uasset
+[2017.07.19-17.24.38:015][ 54]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.24.38:074][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.24.38:075][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.24.38:075][ 54]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:24:38 PM)
+[2017.07.19-17.24.38:075][ 54]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.24.38:112][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036500s)
+[2017.07.19-17.24.38:115][ 54]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.24.38:116][ 54]LogPlayLevel: PIE: World Init took: (0.003697s)
+[2017.07.19-17.24.38:117][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.041040s)
+[2017.07.19-17.24.38:184][ 54]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.24.38:201][ 54]LogInit: FAudioDevice initialized.
+[2017.07.19-17.24.38:241][ 54]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.24.38:249][ 54]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.24.38
+[2017.07.19-17.24.38:250][ 54]LogWorld: Bringing up level for play took: 0.007300
+[2017.07.19-17.24.38:253][ 54]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.575
+[2017.07.19-17.24.38:253][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.24.38:276][ 54]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.38:277][ 54]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.38:277][ 54]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.38:332][ 55]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.38:332][ 55]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.38:332][ 55]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.38:357][ 56]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.38:357][ 56]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.38:357][ 56]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.38:384][ 57]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.38:384][ 57]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.38:384][ 57]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.38:403][ 58]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.38:403][ 58]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.38:403][ 58]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:GetColorAndOpacity_0:00AB
+[2017.07.19-17.24.38:423][ 59]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.19-17.24.38:423][ 59]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.19-17.24.41:735][224]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.19-17.24.42:078][241]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.19-17.24.43:386][304]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.24.43:759][322]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.24.44:208][344]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.24.44:620][365]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.24.48:116][538]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.24.51:355][701]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.24.54:113][838]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.24.54:831][873]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.24.59:547][ 97]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.25.04:709][349]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.25.09:233][567]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.25.14:371][820]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.25.36:910][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.25.36:980][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.30.17:629][452]LogSavePackage: Save=209.83ms
+[2017.07.19-17.30.17:629][452]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMap3D5F4494456FBA8CE0D3FBA123802A3C.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.19-17.30.17:633][452]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.19-17.30.17:662][452]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.386
+[2017.07.19-17.30.17:666][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset" SILENT=true
+[2017.07.19-17.30.17:822][452]LogSavePackage: Save=147.93ms
+[2017.07.19-17.30.17:822][452]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/AK130E0BBE4301E294405B21BB29CB2814.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset'
+[2017.07.19-17.30.17:825][452]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset
+[2017.07.19-17.30.17:830][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset" SILENT=true
+[2017.07.19-17.30.17:987][452]LogSavePackage: Save=151.73ms
+[2017.07.19-17.30.17:987][452]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/M4a194B3C2284D4BA09A13752299BCC52759.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset'
+[2017.07.19-17.30.17:991][452]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset
+[2017.07.19-17.30.18:144][452]LogSavePackage: Save=143.01ms
+[2017.07.19-17.30.18:144][452]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/shotgun68C1F6D940EB663D2398CBB62850CCCC.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.uasset'
+[2017.07.19-17.30.18:147][452]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.uasset
+[2017.07.19-17.37.47:671][110]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-17.37.47:944][110]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-17.37.51:541][210]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-17.38.30:902][995]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-17.38.31:163][995]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-17.38.32:427][ 19]LogSavePackage: Save=113.54ms
+[2017.07.19-17.38.32:427][ 19]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParent292E5F7646E856F52173FA83A1D2A24B.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-17.38.32:430][ 19]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-17.38.40:074][423]BlueprintLog: New page: Compile AK
+[2017.07.19-17.38.40:841][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset" SILENT=true
+[2017.07.19-17.38.41:003][449]LogSavePackage: Save=156.19ms
+[2017.07.19-17.38.41:003][449]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/AKF89E39E047D341CA74B734AD2D2B7E5D.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset'
+[2017.07.19-17.38.41:006][449]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/AK.uasset
+[2017.07.19-17.38.45:022][667]BlueprintLog: New page: Compile M4a1
+[2017.07.19-17.38.45:787][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset" SILENT=true
+[2017.07.19-17.38.45:942][690]LogSavePackage: Save=148.99ms
+[2017.07.19-17.38.45:942][690]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/M4a16DC52C7B448D2948768757A1B5A4D39B.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset'
+[2017.07.19-17.38.45:945][690]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.uasset
+[2017.07.19-17.38.49:114][855]BlueprintLog: New page: Compile shotgun
+[2017.07.19-17.38.50:026][879]LogSavePackage: Save=150.33ms
+[2017.07.19-17.38.50:026][879]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/shotgun2DFC53DC402361F89B8DB8AD01F7F010.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.uasset'
+[2017.07.19-17.38.50:029][879]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.uasset
+[2017.07.19-17.42.47:047][971]LogSavePackage: Save=235.70ms
+[2017.07.19-17.42.47:047][971]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMap_Auto43BC5E8C74122B09BBBFECAA7B21E264C.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2017.07.19-17.42.47:048][971]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap
+[2017.07.19-17.42.47:050][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.304
+[2017.07.19-17.42.47:050][971]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.304
+[2017.07.19-17.42.47:055][971]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent] ([1] browsable assets)...
+[2017.07.19-17.42.47:055][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent]
+[2017.07.19-17.42.47:193][971]LogSavePackage: Save=132.59ms
+[2017.07.19-17.42.47:193][971]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParent_Auto4EDD2C4214F72D716BFDD69A380F0B8B5.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent_Auto4.uasset'
+[2017.07.19-17.42.47:195][971]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent_Auto4.uasset
+[2017.07.19-17.42.47:196][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK] ([1] browsable assets)...
+[2017.07.19-17.42.47:241][971]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK.AK]
+[2017.07.19-17.42.47:241][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK]
+[2017.07.19-17.42.47:403][971]LogSavePackage: Save=158.08ms
+[2017.07.19-17.42.47:403][971]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/AK_Auto4264CC4C7454A3B6E21363584B4204B5B.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK_Auto4.uasset'
+[2017.07.19-17.42.47:405][971]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/AK_Auto4.uasset
+[2017.07.19-17.42.47:406][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1] ([1] browsable assets)...
+[2017.07.19-17.42.47:451][971]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1.M4a1]
+[2017.07.19-17.42.47:451][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1]
+[2017.07.19-17.42.47:609][971]LogSavePackage: Save=154.01ms
+[2017.07.19-17.42.47:609][971]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/M4a1_Auto488960619406B52212AF276BAFFE231B3.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1_Auto4.uasset'
+[2017.07.19-17.42.47:611][971]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/M4a1_Auto4.uasset
+[2017.07.19-17.42.47:612][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun] ([1] browsable assets)...
+[2017.07.19-17.42.47:657][971]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun.shotgun]
+[2017.07.19-17.42.47:657][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun]
+[2017.07.19-17.42.47:818][971]LogSavePackage: Save=156.30ms
+[2017.07.19-17.42.47:818][971]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/shotgun_Auto4F85EB6374EAE9BF07AA2FCB9D8D7AFBB.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun_Auto4.uasset'
+[2017.07.19-17.42.47:820][971]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Blueprints/Weapons/shotgun_Auto4.uasset
+[2017.07.19-17.42.47:820][971]LogFileHelpers: Auto-saving content packages took 0.768
+[2017.07.19-17.43.28:488][935]BlueprintLog: New page: Compile WeaponParent
+[2017.07.19-17.43.29:807][952]LogSavePackage: Save=115.35ms
+[2017.07.19-17.43.29:807][952]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/WeaponParentAD20EB5B4511843E6D9B0BBA7B3D1B1F.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset'
+[2017.07.19-17.43.29:810][952]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Weapons/WeaponParent.uasset
+[2017.07.19-17.44.58:284][504]LogBlueprint:Warning: [FirstPersonCharacter] 'Automatica' variable not found. Base class was probably changed.
+[2017.07.19-17.44.58:301][504]LogBlueprint:Warning: [FirstPersonCharacter] 'cadencia' variable not found. Base class was probably changed.
+[2017.07.19-17.51.22:594][ 58]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.07.19-17.51.22:698][ 58]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.19-17.51.24:226][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.07.19-17.51.24:537][ 89]LogSavePackage: Save=300.96ms
+[2017.07.19-17.51.24:537][ 89]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter91BC07D24F6D9D01498A66A4556F46F0.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.07.19-17.51.24:542][ 89]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.07.19-17.51.42:010][904]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.19-17.51.42:042][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.51.42:042][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-17.51.42:042][904]PIE: New page: PIE session: FirstPersonExampleMap (Jul 19, 2017, 9:51:42 PM)
+[2017.07.19-17.51.42:043][904]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.19-17.51.42:065][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021886s)
+[2017.07.19-17.51.42:066][904]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.19-17.51.42:067][904]LogPlayLevel: PIE: World Init took: (0.001967s)
+[2017.07.19-17.51.42:067][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024230s)
+[2017.07.19-17.51.42:106][904]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.19-17.51.42:116][904]LogInit: FAudioDevice initialized.
+[2017.07.19-17.51.42:151][904]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.19-17.51.42:155][904]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.19-19.51.42
+[2017.07.19-17.51.42:155][904]LogWorld: Bringing up level for play took: 0.003359
+[2017.07.19-17.51.42:157][904]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.671
+[2017.07.19-17.51.42:158][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.51.45:691][113]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.19-17.51.46:025][133]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.19-17.51.47:109][198]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.47:691][233]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.47:992][251]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.48:291][269]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.48:591][287]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.48:891][305]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.49:191][323]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.49:491][341]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.49:792][359]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.50:092][377]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.50:392][395]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.50:691][413]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.50:992][431]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.51:293][449]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.51:593][467]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.51:893][485]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.52:193][503]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.52:493][521]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.52:795][539]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.53:095][557]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.53:395][575]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.53:694][593]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.53:994][611]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.54:294][629]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.54:594][647]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.54:893][665]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.55:193][683]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.55:494][701]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.55:793][719]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.51.56:094][737]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.04:892][262]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.05:197][280]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.05:495][298]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.05:795][316]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.06:095][334]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.06:545][361]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.06:845][379]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.07:378][411]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.07:678][429]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.07:980][447]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.08:480][477]LogBlueprintUserMessages:Warning: SetTimer passed a function (createProjectil) that expects parameters.
+[2017.07.19-17.52.08:514][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.52.08:587][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.19-17.52.28:759][353]LogUObjectBase:Warning: Object is not registered
+[2017.07.19-17.52.28:964][353]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.205 s
+[2017.07.19-17.52.28:964][353]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.19-17.52.28:964][353]LogOutputDevice:Error: 
+[2017.07.19-17.52.28:964][353]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.07.19-17.52.28:964][353]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: Stack: 
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B70CE256
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B6E7B862
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B6E91E26
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000B4CC7556
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000BA6DD27B
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000B5DC24AA
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000B5C672CC
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000B5C6A6D9
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000B5D88035
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000BD67DB57
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000BD684B61
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000BD8A48D3
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000BD6DF604
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000BD6D9170
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000BD6D8A55
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor.exe!0x000000006A15ED59
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor.exe!0x000000006A14F0B0
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor.exe!0x000000006A14F12A
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor.exe!0x000000006A160CF9
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: UE4Editor.exe!0x000000006A1625F7
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: KERNEL32.DLL!0x0000000009B88364
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: ntdll.dll!0x000000000A2970D1
+[2017.07.19-17.52.28:965][353]LogOutputDevice:Error: 
+[2017.07.19-17.52.28:965][353]LogStats:                SubmitErrorReport -  0.000 s
