@@ -1,0 +1,1486 @@
+﻿Log file open, 07/27/17 15:29:14
+LogInit:Display: Running engine for game: Postwar
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1937651937) SRandInit(1937651937).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.099845
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.27-13.29.15:016][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-13.29.15:016][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.27-13.29.15:026][  0]LogInit: Computer: DESKTOP-T9NOKQO
+[2017.07.27-13.29.15:026][  0]LogInit: User: cripe
+[2017.07.27-13.29.15:026][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.27-13.29.15:026][  0]LogInit: High frequency timer resolution =2.435774 MHz
+[2017.07.27-13.29.15:026][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.27-13.29.15:026][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.27-13.29.15:026][  0]LogMemory: Process Physical Memory: 274.38 MB used, 274.38 MB peak
+[2017.07.27-13.29.15:026][  0]LogMemory: Process Virtual Memory: 261.20 MB used, 261.20 MB peak
+[2017.07.27-13.29.15:026][  0]LogMemory: Physical Memory: 7511.54 MB used,  8791.60 MB free, 16303.14 MB total
+[2017.07.27-13.29.15:026][  0]LogMemory: Virtual Memory: 624.58 MB used,  8791.60 MB free, 134217728.00 MB total
+[2017.07.27-13.29.15:099][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.07.27-13.29.15:099][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.07.27-13.29.16:245][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.27-13.29.16:923][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.07.27-13.29.16:923][  0]LogD3D11RHI:       2017/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.27-13.29.16:930][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.07.27-13.29.16:930][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.27-13.29.16:931][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.27-13.29.16:931][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.27-13.29.16:931][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.27-13.29.16:936][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.27-13.29.16:936][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
+[2017.07.27-13.29.16:936][  0]LogWindows: EnumDisplayDevices:
+[2017.07.27-13.29.16:937][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.07.27-13.29.16:937][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.07.27-13.29.16:937][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.07.27-13.29.16:937][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.07.27-13.29.16:937][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.07.27-13.29.16:937][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.07.27-13.29.16:937][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.07.27-13.29.16:937][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.27-13.29.17:591][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.27-13.29.17:640][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.27-13.29.17:640][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Intermediate/Shaders/WorkingDirectory/5608/).
+[2017.07.27-13.29.17:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cripe/AppData/Local/Temp/UnrealShaderWorkingDir/D543CC294F0FEBAF9C73DBAD71B22115/'.
+[2017.07.27-13.29.17:641][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.27-13.29.18:810][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.27-13.29.18:864][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.27-13.29.18:916][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.27-13.29.18:973][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.27-13.29.19:032][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.27-13.29.19:087][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.27-13.29.19:140][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.27-13.29.19:190][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.27-13.29.19:239][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.27-13.29.19:293][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.27-13.29.19:345][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.27-13.29.19:397][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.27-13.29.19:451][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.27-13.29.19:506][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.27-13.29.19:560][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.27-13.29.19:663][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.27-13.29.19:663][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.27-13.29.19:708][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.27-13.29.19:804][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.27-13.29.19:830][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.27-13.29.19:882][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.27-13.29.19:936][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.27-13.29.19:983][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.27-13.29.20:034][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.27-13.29.20:034][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.27-13.29.20:566][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.27-13.29.20:689][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-13.29.20:689][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.27-13.29.20:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.27-13.29.20:689][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.27-13.29.20:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.27-13.29.20:689][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.27-13.29.20:710][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.27-13.29.20:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cripe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.27-13.29.20:737][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.27-13.29.20:737][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.27-13.29.20:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-13.29.20:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-13.29.21:138][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-13.29.21:225][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.27-13.29.21:405][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.27-13.29.21:451][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.27-13.29.21:504][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.27-13.29.21:504][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.27-13.29.21:504][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.27-13.29.22:120][  0]LogNetVersion: Postwar , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2296384490)
+[2017.07.27-13.29.22:181][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2017.07.27-13.29.22:215][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.015946 seconds
+[2017.07.27-13.29.22:224][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.27-13.29.22:224][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.27-13.29.22:224][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.27-13.29.22:282][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.27-13.29.25:154][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.27-13.29.25:195][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.27-13.29.25:770][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.27-13.29.26:197][  0]SourceControl: Info Source control is disabled
+[2017.07.27-13.29.26:460][  0]SourceControl: Info Source control is disabled
+[2017.07.27-13.29.26:511][  0]SourceControl: Info Source control is disabled
+[2017.07.27-13.29.26:560][  0]SourceControl: Info Source control is disabled
+[2017.07.27-13.29.27:288][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.27-13.29.27:941][  0]LogEngine: Initializing Engine...
+[2017.07.27-13.29.27:942][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.27-13.29.28:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.27-13.29.28:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.27-13.29.28:321][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.27-13.29.28:330][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-13.29.28:346][  0]LogInit: FAudioDevice initialized.
+[2017.07.27-13.29.28:403][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-13.29.28:420][  0]LogInit: Texture streaming: Enabled
+[2017.07.27-13.29.28:516][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.27-13.29.28:743][  0]LogInit: Transaction tracking system initialized
+[2017.07.27-13.29.29:075][  0]BlueprintLog: New page: Editor Load
+[2017.07.27-13.29.30:117][  0]LocalizationService: Info Localization service is disabled
+[2017.07.27-13.29.30:828][  0]LogConsoleResponse:Display: 
+[2017.07.27-13.29.30:981][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.27-13.29.30:981][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.27-13.29.31:136][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/' took 0.02s
+[2017.07.27-13.29.32:097][  0]SourceControl: Info Source control is disabled
+[2017.07.27-13.29.32:097][  0]Cmd: MAP LOAD FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.27-13.29.32:098][  0]LightingResults: New page: Lighting Build
+[2017.07.27-13.29.32:146][  0]MapCheck: New page: Map Check
+[2017.07.27-13.29.32:146][  0]LightingResults: New page: Lighting Build
+[2017.07.27-13.29.32:577][  0]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.27-13.29.32:577][  0]LogBlueprint:Warning: [WeaponParent] 'Opac' variable not found. Base class was probably changed.
+[2017.07.27-13.29.32:689][  0]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.07.27-13.29.34:594][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.27-13.29.34:620][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.27-13.29.34:668][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.27-13.29.34:799][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.417ms to complete.
+[2017.07.27-13.29.34:799][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.702
+[2017.07.27-13.29.34:973][  0]LogCollectionManager: Loaded 0 collections in 0.003391 seconds
+[2017.07.27-13.29.35:076][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Collections/' took 0.01s
+[2017.07.27-13.29.35:076][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Developers/cripe/Collections/' took 0.01s
+[2017.07.27-13.29.35:076][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Collections/' took 0.01s
+[2017.07.27-13.29.35:076][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.27-13.29.35:094][  0]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2329 classes and 491 folders.
+[2017.07.27-13.29.35:182][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.07.27-13.29.35:267][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.07.27-13.29.35:333][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.07.27-13.29.35:484][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.27-13.29.35:498][  0]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.27-13.29.35:500][  0]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.27-13.29.35:507][  0]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.27-13.29.35:645][  0]LogRenderer: Reallocating scene render targets to support 1208x620 NumSamples 1 (Frame:1).
+[2017.07.27-13.29.35:850][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.27-13.29.35:932][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.07.27-13.29.35:933][  0]LogLoad: (Engine Initialization) Total time: 22.90 seconds
+[2017.07.27-13.29.35:933][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.74 seconds
+[2017.07.27-13.29.35:933][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.27-13.29.35:933][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.27-13.29.36:273][  0]LogOcInput: OculusInput pre-init called
+[2017.07.27-13.29.36:273][  0]LogHMD: Starting GearVRController plugin
+[2017.07.27-13.29.36:305][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.27-13.29.36:365][  0]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-13.29.36:629][  1]LogAssetRegistry: Asset discovery search completed in 14.4708 seconds
+[2017.07.27-13.29.36:632][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.27-13.29.36:632][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.07.27-13.29.37:278][  3]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-13.29.42:284][176]LogEditorViewport: Clicking on Actor (LMB): Puerta_C (Puerta)
+[2017.07.27-13.29.44:017][273]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-13.29.44:436][273]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 112 classes and 0 folders.
+[2017.07.27-13.29.45:160][273]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.27-13.29.45:250][274]LogSlate: Took 0.000512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.27-13.29.57:056][916]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1).
+[2017.07.27-13.30.10:981][467]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-13.30.11:070][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.30.11:070][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-13.30.11:071][467]PIE: New page: PIE session: FirstPersonExampleMap (Jul 27, 2017, 5:30:11 PM)
+[2017.07.27-13.30.11:071][467]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.27-13.30.11:113][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042049s)
+[2017.07.27-13.30.11:114][467]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.27-13.30.11:115][467]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2017.07.27-13.30.11:115][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.044302s)
+[2017.07.27-13.30.11:155][467]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-13.30.11:171][467]LogInit: FAudioDevice initialized.
+[2017.07.27-13.30.11:223][467]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.27-13.30.11:230][467]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.27-15.30.11
+[2017.07.27-13.30.11:231][467]LogWorld: Bringing up level for play took: 0.005424
+[2017.07.27-13.30.11:290][467]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.07.27-13.30.11:292][467]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.985
+[2017.07.27-13.30.11:293][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.30.11:304][467]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.30.11:304][467]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.30.11:304][467]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.30.11:368][468]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.30.11:368][468]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.30.11:369][468]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.30.11:398][469]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.30.11:398][469]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.30.11:398][469]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.30.11:418][470]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.30.11:419][470]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.30.11:419][470]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.30.11:435][471]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.30.11:435][471]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.30.11:435][471]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.30.11:454][472]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.30.11:454][472]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BasicAmmo_C_0
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.30.19:068][872]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.30.19:702][910]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.30.25:301][246]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.30.25:969][286]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.30.26:852][339]LogBlueprintUserMessages: [MaquinaDamage_350] Has entrado en zona de mejorar
+[2017.07.27-13.30.28:768][454]LogBlueprintUserMessages: [MaquinaDamage_350] Has salido de zona de mejorar
+[2017.07.27-13.30.28:835][458]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has entrado en zona de mejorar
+[2017.07.27-13.30.29:585][503]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has salido de zona de mejorar
+[2017.07.27-13.30.29:685][509]LogBlueprintUserMessages: [MaquinaCadencia_162] Has entrado en zona de mejorar
+[2017.07.27-13.30.31:202][600]LogBlueprintUserMessages: [MaquinaCadencia_162] Has salido de zona de mejorar
+[2017.07.27-13.30.31:302][606]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has entrado en zona de mejorar
+[2017.07.27-13.30.31:552][621]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has salido de zona de mejorar
+[2017.07.27-13.30.32:535][680]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.30.33:285][725]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.30.34:269][784]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.30.35:868][880]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.30.36:421][911]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.30.37:170][956]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.30.38:738][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.30.38:787][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.30.39:828][109]LogEditorViewport: Clicking on Actor (LMB): MaquinaMunicionMax_C (MaquinaMunicionMax)
+[2017.07.27-13.30.46:075][390]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2017.07.27-13.31.00:438][ 95]LogEditorViewport: Clicking on Actor (LMB): MaquinaMunicionMax_C (MaquinaMunicionMax)
+[2017.07.27-13.31.38:348][815]LogActorFactory: Actor Factory created SM_Couch
+[2017.07.27-13.31.38:853][844]LogActorFactory: Actor Factory created SM_Couch
+[2017.07.27-13.31.50:788][470]Cmd: ACTOR CREATE_BV_CONVEXVOLUME NORMALTOLERANCE=0.15 SnapToGrid=1
+[2017.07.27-13.31.51:058][470]Cmd: BRUSH ADDVOLUME CLASS=BlockingVolume
+[2017.07.27-13.31.56:589][766]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-13.31.56:609][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.31.56:609][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-13.31.56:609][766]PIE: New page: PIE session: FirstPersonExampleMap (Jul 27, 2017, 5:31:56 PM)
+[2017.07.27-13.31.56:609][766]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.27-13.31.56:625][766]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:625][766]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:625][766]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:625][766]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:625][766]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:625][766]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:625][766]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:634][766]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.31.56:638][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029242s)
+[2017.07.27-13.31.56:639][766]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.27-13.31.56:639][766]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2017.07.27-13.31.56:640][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031120s)
+[2017.07.27-13.31.56:668][766]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-13.31.56:679][766]LogInit: FAudioDevice initialized.
+[2017.07.27-13.31.56:713][766]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.27-13.31.56:718][766]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.27-15.31.56
+[2017.07.27-13.31.56:718][766]LogWorld: Bringing up level for play took: 0.003336
+[2017.07.27-13.31.56:720][766]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.412
+[2017.07.27-13.31.56:720][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.31.56:765][766]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.31.56:765][766]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.31.56:766][766]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.31.56:784][767]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.31.56:784][767]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.31.56:784][767]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.31.56:801][768]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.31.56:801][768]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.31.56:801][768]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.31.56:819][769]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.31.56:819][769]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.31.56:819][769]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.31.56:835][770]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.31.56:835][770]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.31.56:835][770]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.31.56:851][771]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.31.56:851][771]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BasicAmmo_C_1
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.32.00:848][ 11]LogBlueprintUserMessages: [MaquinaRecarga_262] Has entrado en zona de mejorar
+[2017.07.27-13.32.00:998][ 20]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.32.01:032][ 22]LogBlueprintUserMessages: [MaquinaRecarga_262] Has salido de zona de mejorar
+[2017.07.27-13.32.01:683][ 61]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.32.02:383][103]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.32.03:200][152]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.32.07:300][398]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.32.07:417][405]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.32.09:484][529]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.32.09:751][545]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.32.14:001][800]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.32.14:067][800]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.32.19:929][111]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-13.32.19:957][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.32.19:957][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-13.32.19:957][111]PIE: New page: PIE session: FirstPersonExampleMap (Jul 27, 2017, 5:32:19 PM)
+[2017.07.27-13.32.19:958][111]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.27-13.32.19:978][111]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:978][111]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:978][111]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:978][111]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:978][111]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:978][111]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:978][111]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:987][111]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.32.19:990][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032538s)
+[2017.07.27-13.32.19:991][111]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.27-13.32.19:991][111]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2017.07.27-13.32.19:992][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034115s)
+[2017.07.27-13.32.20:025][111]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-13.32.20:043][111]LogInit: FAudioDevice initialized.
+[2017.07.27-13.32.20:076][111]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.27-13.32.20:081][111]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.27-15.32.20
+[2017.07.27-13.32.20:082][111]LogWorld: Bringing up level for play took: 0.004595
+[2017.07.27-13.32.20:085][111]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.223
+[2017.07.27-13.32.20:085][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.32.20:134][111]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.32.20:134][111]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.32.20:134][111]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.32.20:152][112]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.32.20:152][112]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.32.20:152][112]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.32.20:170][113]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.32.20:170][113]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.32.20:170][113]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.32.20:185][114]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.32.20:185][114]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.32.20:185][114]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.32.20:201][115]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.32.20:201][115]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.32.20:201][115]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.32.20:219][116]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.32.20:219][116]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BasicAmmo_C_2
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.32.25:249][418]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.32.25:700][445]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.32.27:218][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.32.27:276][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.32.28:315][594]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2017.07.27-13.32.31:128][751]Cmd: DELETE
+[2017.07.27-13.32.31:128][751]Cmd: ACTOR DELETE
+[2017.07.27-13.32.31:130][751]LogEditorActor: Deleted Actor: BlockingVolume
+[2017.07.27-13.32.31:148][751]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.07.27-13.32.32:616][839]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2017.07.27-13.32.33:311][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2017.07.27-13.32.34:355][936]Cmd: DELETE
+[2017.07.27-13.32.34:355][936]Cmd: ACTOR DELETE
+[2017.07.27-13.32.34:356][936]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.27-13.32.34:373][936]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.07.27-13.32.39:999][267]LogEditorViewport: Clicking on Actor (LMB): Puerta_C (Puerta)
+[2017.07.27-13.34.40:819][838]BlueprintLog: New page: Compile Puerta
+[2017.07.27-13.34.41:744][860]LogSavePackage: Save=43.85ms
+[2017.07.27-13.34.41:744][860]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Puerta16FE5BF9479C76505B07AEA353427462.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Interactuable/Puerta.uasset'
+[2017.07.27-13.34.41:747][860]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Interactuable/Puerta.uasset
+[2017.07.27-13.35.19:773][844]BlueprintLog: New page: Compile Puerta
+[2017.07.27-13.35.20:428][868]LogSavePackage: Save=34.84ms
+[2017.07.27-13.35.20:428][868]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Puerta14C5CEDF4DC13499024AF39B97D6FB6A.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Interactuable/Puerta.uasset'
+[2017.07.27-13.35.20:431][868]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Interactuable/Puerta.uasset
+[2017.07.27-13.35.23:134][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-13.35.23:158][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.35.23:158][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-13.35.23:159][ 24]PIE: New page: PIE session: FirstPersonExampleMap (Jul 27, 2017, 5:35:23 PM)
+[2017.07.27-13.35.23:159][ 24]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:180][ 24]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.35.23:183][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023802s)
+[2017.07.27-13.35.23:183][ 24]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.27-13.35.23:184][ 24]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2017.07.27-13.35.23:184][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025054s)
+[2017.07.27-13.35.23:213][ 24]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-13.35.23:229][ 24]LogInit: FAudioDevice initialized.
+[2017.07.27-13.35.23:260][ 24]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.27-13.35.23:264][ 24]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.27-15.35.23
+[2017.07.27-13.35.23:264][ 24]LogWorld: Bringing up level for play took: 0.003112
+[2017.07.27-13.35.23:266][ 24]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.958
+[2017.07.27-13.35.23:266][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.35.23:308][ 24]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.35.23:308][ 24]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.35.23:308][ 24]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.35.23:322][ 25]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.35.23:322][ 25]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.35.23:322][ 25]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.35.23:340][ 26]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.35.23:340][ 26]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.35.23:340][ 26]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.35.23:358][ 27]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.35.23:358][ 27]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.35.23:359][ 27]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.35.23:372][ 28]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.35.23:372][ 28]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.35.23:372][ 28]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.35.23:388][ 29]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.35.23:388][ 29]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BasicAmmo_C_3
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.35.24:320][ 85]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.35.24:369][ 88]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.35.26:369][208]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.27-13.35.26:521][217]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.27-13.35.28:836][356]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.35.34:736][710]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.35.35:686][767]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.35.36:337][806]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.35.36:988][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.35.37:045][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.36.01:501][245]LogSavePackage: Save=40.29ms
+[2017.07.27-13.36.01:501][245]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/PuertaD6A46A3D4920885A13588FA5E92EDFD7.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Interactuable/Puerta.uasset'
+[2017.07.27-13.36.01:505][245]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Blueprints/Interactuable/Puerta.uasset
+[2017.07.27-13.36.04:162][400]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-13.36.04:189][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.36.04:189][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-13.36.04:190][400]PIE: New page: PIE session: FirstPersonExampleMap (Jul 27, 2017, 5:36:04 PM)
+[2017.07.27-13.36.04:190][400]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:219][400]LogBrush: Brush had invalid poly normals which have been fixed. Resave the level 'FirstPersonExampleMap' to remove this warning.
+[2017.07.27-13.36.04:222][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032326s)
+[2017.07.27-13.36.04:223][400]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.07.27-13.36.04:223][400]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2017.07.27-13.36.04:223][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033808s)
+[2017.07.27-13.36.04:259][400]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-13.36.04:276][400]LogInit: FAudioDevice initialized.
+[2017.07.27-13.36.04:314][400]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.07.27-13.36.04:320][400]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.07.27-15.36.04
+[2017.07.27-13.36.04:321][400]LogWorld: Bringing up level for play took: 0.004915
+[2017.07.27-13.36.04:324][400]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.016
+[2017.07.27-13.36.04:324][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.36.04:372][400]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.36.04:372][400]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.36.04:372][400]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.36.04:390][401]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.36.04:390][401]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.36.04:391][401]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.36.04:408][402]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.36.04:408][402]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.36.04:408][402]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.36.04:423][403]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.36.04:423][403]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.36.04:423][403]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.36.04:439][404]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.36.04:439][404]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.36.04:440][404]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:Recargando:00AB
+[2017.07.27-13.36.04:457][405]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionActual:00D5
+[2017.07.27-13.36.04:457][405]LogScript:Warning: Accessed None trying to read property Equipada
+	BasicAmmo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BasicAmmo_C_4
+	Function /Game/FirstPersonBP/PostWar/HUD/BasicAmmo.BasicAmmo_C:MunicionTotal:00D5
+[2017.07.27-13.36.05:121][445]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.36.05:137][446]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.36.07:222][571]LogBlueprintUserMessages: [AKDrop_408] Aun no hemos comprado este arma
+[2017.07.27-13.36.07:405][582]LogBlueprintUserMessages: [AKDrop_408] Compro AK
+[2017.07.27-13.36.08:321][637]LogBlueprintUserMessages: [shotgunDrop_110] Aun no hemos comprado este arma
+[2017.07.27-13.36.08:838][668]LogBlueprintUserMessages: [shotgunDrop_110] Compro escopeta
+[2017.07.27-13.36.13:216][930]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.36.13:515][948]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.36.13:898][971]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.36.14:199][989]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.36.19:636][315]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.36.25:353][658]LogBlueprintUserMessages: [MaquinaRecarga_262] Has entrado en zona de mejorar
+[2017.07.27-13.36.25:754][682]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.25:920][692]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.26:087][702]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.26:236][711]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.26:388][720]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.26:521][728]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.26:687][738]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.26:821][746]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.26:970][755]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.27:137][765]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.27:286][774]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.27:420][782]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.27:587][792]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.27:720][800]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.27:920][812]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.28:786][864]LogBlueprintUserMessages: [MaquinaRecarga_262] Has salido de zona de mejorar
+[2017.07.27-13.36.29:070][881]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.36.33:603][153]LogBlueprintUserMessages: [MaquinaRecarga_262] Has entrado en zona de mejorar
+[2017.07.27-13.36.34:036][179]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.34:203][189]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.34:336][197]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.34:486][206]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.34:637][215]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.34:770][223]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.34:937][233]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.35:087][242]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.35:236][251]LogBlueprintUserMessages: [MaquinaRecarga_262] Soy maquina mejorar tiempo recarga
+[2017.07.27-13.36.35:871][289]LogBlueprintUserMessages: [MaquinaRecarga_262] Has salido de zona de mejorar
+[2017.07.27-13.36.36:221][310]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.36.38:720][460]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.36.40:837][587]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.36.41:020][598]LogBlueprintUserMessages: [MaquinaDamage_350] Has entrado en zona de mejorar
+[2017.07.27-13.36.41:020][598]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.36.41:970][655]LogBlueprintUserMessages: [MaquinaDamage_350] Has salido de zona de mejorar
+[2017.07.27-13.36.41:987][656]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has entrado en zona de mejorar
+[2017.07.27-13.36.42:070][661]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has salido de zona de mejorar
+[2017.07.27-13.36.43:354][738]LogBlueprintUserMessages: [ZonaBP] Entro en nueva zona
+[2017.07.27-13.36.43:354][738]LogBlueprintUserMessages: [Partida_C_0] INICIO RONDA!!!!
+[2017.07.27-13.36.47:289][974]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN  LAS PIERNAS
+[2017.07.27-13.36.47:889][ 10]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN  LAS PIERNAS
+[2017.07.27-13.36.48:824][ 66]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN  LAS PIERNAS
+[2017.07.27-13.36.49:238][ 91]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN  LAS PIERNAS
+[2017.07.27-13.36.54:772][423]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.36.55:272][453]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.36.55:771][483]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.36.56:272][513]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 6
+[2017.07.27-13.36.56:754][542]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 5
+[2017.07.27-13.36.57:105][563]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 4
+[2017.07.27-13.36.57:605][593]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 3
+[2017.07.27-13.36.59:608][713]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 4
+[2017.07.27-13.37.00:077][741]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.00:451][763]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.00:819][785]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.01:304][814]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.01:618][833]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 5
+[2017.07.27-13.37.01:635][834]LogBlueprintUserMessages: [Zombi_C_2] HE MUERTO
+[2017.07.27-13.37.01:635][834]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.37.01:635][834]LogBlueprintUserMessages: [Zombi_C_2] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.03:609][952]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 6
+[2017.07.27-13.37.05:616][ 71]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.37.07:617][191]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.37.09:150][283]LogBlueprintUserMessages: [Zombi_C_7] ME HA DADO EN  LAS PIERNAS
+[2017.07.27-13.37.09:617][311]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.37.10:685][375]LogBlueprintUserMessages: [Zombi_C_7] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.11:617][431]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.37.12:201][466]LogBlueprintUserMessages: [Zombi_C_7] HE MUERTO
+[2017.07.27-13.37.12:201][466]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.37.12:201][466]LogBlueprintUserMessages: [Zombi_C_7] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.13:617][551]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] vida al maximo
+[2017.07.27-13.37.14:435][600]LogBlueprintUserMessages: [Zombi_C_3] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.18:805][862]LogBlueprintUserMessages: [Zombi_C_3] HE MUERTO
+[2017.07.27-13.37.18:805][862]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.37.18:806][862]LogBlueprintUserMessages: [Zombi_C_3] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.23:755][159]LogBlueprintUserMessages: [Zombi_C_1] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.24:122][181]LogBlueprintUserMessages: [Zombi_C_1] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.24:555][207]LogBlueprintUserMessages: [Zombi_C_1] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.24:923][229]LogBlueprintUserMessages: [Zombi_C_1] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.25:289][251]LogBlueprintUserMessages: [Zombi_C_1] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.25:605][270]LogBlueprintUserMessages: [Zombi_C_1] HE MUERTO
+[2017.07.27-13.37.25:605][270]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.37.25:605][270]LogBlueprintUserMessages: [Zombi_C_1] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.26:261][309]LogBlueprintUserMessages: [Zombi_C_4] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.26:932][349]LogBlueprintUserMessages: [Zombi_C_4] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.29:516][504]LogBlueprintUserMessages: [Zombi_C_0] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.29:815][522]LogBlueprintUserMessages: [Zombi_C_0] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.30:116][540]LogBlueprintUserMessages: [Zombi_C_0] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.30:415][558]LogBlueprintUserMessages: [Zombi_C_0] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.30:715][576]LogBlueprintUserMessages: [Zombi_C_0] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.31:015][594]LogBlueprintUserMessages: [Zombi_C_0] HE MUERTO
+[2017.07.27-13.37.31:015][594]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.37.31:015][594]LogBlueprintUserMessages: [Zombi_C_0] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.33:631][751]LogBlueprintUserMessages: [Zombi_C_4] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.34:049][776]LogBlueprintUserMessages: [Zombi_C_4] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.34:415][798]LogBlueprintUserMessages: [Zombi_C_4] HE MUERTO
+[2017.07.27-13.37.34:415][798]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.37.34:415][798]LogBlueprintUserMessages: [Zombi_C_4] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.36:932][949]LogBlueprintUserMessages: [Zombi_C_6] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.37:265][969]LogBlueprintUserMessages: [Zombi_C_6] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.37:565][987]LogBlueprintUserMessages: [Zombi_C_6] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.37:866][  5]LogBlueprintUserMessages: [Zombi_C_6] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.38:166][ 23]LogBlueprintUserMessages: [Zombi_C_6] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.38:467][ 41]LogBlueprintUserMessages: [Zombi_C_6] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.38:831][ 63]LogBlueprintUserMessages: [Zombi_C_6] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.39:199][ 85]LogBlueprintUserMessages: [Zombi_C_6] HE MUERTO
+[2017.07.27-13.37.39:199][ 85]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.37.39:199][ 85]LogBlueprintUserMessages: [Zombi_C_6] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.42:598][289]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has entrado en zona de mejorar
+[2017.07.27-13.37.42:914][308]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Soy maquina mejorar capacidad cargador
+[2017.07.27-13.37.43:114][320]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Soy maquina mejorar capacidad cargador
+[2017.07.27-13.37.43:280][330]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Soy maquina mejorar capacidad cargador
+[2017.07.27-13.37.43:447][340]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Soy maquina mejorar capacidad cargador
+[2017.07.27-13.37.43:597][349]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Soy maquina mejorar capacidad cargador
+[2017.07.27-13.37.43:764][359]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Soy maquina mejorar capacidad cargador
+[2017.07.27-13.37.44:397][397]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Soy maquina mejorar capacidad cargador
+[2017.07.27-13.37.45:164][443]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has salido de zona de mejorar
+[2017.07.27-13.37.45:181][444]LogBlueprintUserMessages: [MaquinaDamage_350] Has entrado en zona de mejorar
+[2017.07.27-13.37.45:414][458]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.45:565][467]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.45:748][478]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.45:898][487]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.46:048][496]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.46:198][505]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.46:348][514]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.46:514][524]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.46:664][533]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.46:814][542]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.46:964][551]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.47:131][561]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.47:281][570]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.47:430][579]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.47:597][589]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.47:764][599]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.47:931][609]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.48:081][618]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.48:247][628]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.48:397][637]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.48:564][647]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.48:714][656]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.48:864][665]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.49:031][675]LogBlueprintUserMessages: [MaquinaDamage_350] Soy maquina mejorar daño
+[2017.07.27-13.37.49:180][684]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] NO HAY PUNTOS SUFICIENTES
+[2017.07.27-13.37.49:331][693]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] NO HAY PUNTOS SUFICIENTES
+[2017.07.27-13.37.49:981][732]LogBlueprintUserMessages: [MaquinaDamage_350] Has salido de zona de mejorar
+[2017.07.27-13.37.52:482][882]LogBlueprintUserMessages: [Zombi_C_5] ME HA DADO EN EL TORSO
+[2017.07.27-13.37.53:349][934]LogBlueprintUserMessages: [Zombi_C_5] HE MUERTO
+[2017.07.27-13.37.53:349][934]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.37.53:349][934]LogBlueprintUserMessages: [Zombi_C_5] ME HA DADO EN LA CABEZA
+[2017.07.27-13.37.56:831][143]LogBlueprintUserMessages: [ZonaBP2] Entro en nueva zona
+[2017.07.27-13.37.58:333][233]LogBlueprintUserMessages: [Partida_C_0] INICIO RONDA!!!!
+[2017.07.27-13.38.01:636][431]LogBlueprintUserMessages: [Zombi_C_10] HE MUERTO
+[2017.07.27-13.38.01:636][431]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.01:637][431]LogBlueprintUserMessages: [Zombi_C_10] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.03:337][533]LogBlueprintUserMessages: [Zombi_C_8] HE MUERTO
+[2017.07.27-13.38.03:337][533]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.03:337][533]LogBlueprintUserMessages: [Zombi_C_8] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.03:370][535]LogCharacterMovement: Zombi_C_14 is stuck and failed to move! Velocity: X=-20.59 Y=28.30 Z=0.00 Location: X=356.53 Y=-1665.68 Z=260.38 Normal: X=-0.60 Y=0.80 Z=0.00 PenetrationDepth:15.116 Actor:Zombi_C_17 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.07.27-13.38.03:387][536]LogCharacterMovement: Zombi_C_17 is stuck and failed to move! Velocity: X=-20.10 Y=27.59 Z=0.00 Location: X=388.41 Y=-1707.87 Z=179.99 Normal: X=-0.00 Y=0.00 Z=1.00 PenetrationDepth:78.239 Actor:Floor_16 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.07.27-13.38.04:308][590]LogBlueprintUserMessages: [Zombi_C_12] HE MUERTO
+[2017.07.27-13.38.04:308][590]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.04:308][590]LogBlueprintUserMessages: [Zombi_C_12] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.05:607][668]LogBlueprintUserMessages: [Zombi_C_11] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.05:976][690]LogBlueprintUserMessages: [Zombi_C_11] HE MUERTO
+[2017.07.27-13.38.05:976][690]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.05:976][690]LogBlueprintUserMessages: [Zombi_C_11] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.06:274][708]LogBlueprintUserMessages: [Zombi_C_14] HE MUERTO
+[2017.07.27-13.38.06:274][708]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.06:275][708]LogBlueprintUserMessages: [Zombi_C_14] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.07:513][782]LogBlueprintUserMessages: [Zombi_C_17] HE MUERTO
+[2017.07.27-13.38.07:513][782]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.07:513][782]LogBlueprintUserMessages: [Zombi_C_17] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.08:615][848]LogBlueprintUserMessages: [Zombi_C_13] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.09:648][910]LogBlueprintUserMessages: [Zombi_C_9] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.10:099][937]LogBlueprintUserMessages: [Zombi_C_9] HE MUERTO
+[2017.07.27-13.38.10:099][937]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.10:100][937]LogBlueprintUserMessages: [Zombi_C_9] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.11:453][ 18]LogBlueprintUserMessages: [Zombi_C_13] HE MUERTO
+[2017.07.27-13.38.11:453][ 18]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.11:453][ 18]LogBlueprintUserMessages: [Zombi_C_13] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.17:486][380]LogBlueprintUserMessages: [Zombi_C_18] HE MUERTO
+[2017.07.27-13.38.17:486][380]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.17:486][380]LogBlueprintUserMessages: [Zombi_C_18] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.20:738][575]LogBlueprintUserMessages: [Zombi_C_15] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.21:137][599]LogBlueprintUserMessages: [Zombi_C_15] HE MUERTO
+[2017.07.27-13.38.21:137][599]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.21:137][599]LogBlueprintUserMessages: [Zombi_C_15] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.23:524][742]LogBlueprintUserMessages: [Zombi_C_16] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.23:857][762]LogBlueprintUserMessages: [Zombi_C_16] HE MUERTO
+[2017.07.27-13.38.23:857][762]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.23:857][762]LogBlueprintUserMessages: [Zombi_C_16] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.28:851][ 61]LogBlueprintUserMessages: [Partida_C_0] INICIO RONDA!!!!
+[2017.07.27-13.38.31:702][232]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.38.32:184][261]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] NO HAY PUNTOS SUFICIENTES
+[2017.07.27-13.38.33:085][315]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] NO HAY PUNTOS SUFICIENTES
+[2017.07.27-13.38.34:052][373]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] NO HAY PUNTOS SUFICIENTES
+[2017.07.27-13.38.34:285][387]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] NO HAY PUNTOS SUFICIENTES
+[2017.07.27-13.38.34:954][427]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.38.36:506][520]LogBlueprintUserMessages: [Zombi_C_27] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.36:737][534]LogBlueprintUserMessages: [MaquinaCadencia_162] Has entrado en zona de mejorar
+[2017.07.27-13.38.36:889][543]LogBlueprintUserMessages: [Zombi_C_27] HE MUERTO
+[2017.07.27-13.38.36:889][543]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.36:889][543]LogBlueprintUserMessages: [Zombi_C_27] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.37:222][563]LogBlueprintUserMessages: [Zombi_C_20] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.37:858][601]LogBlueprintUserMessages: [MaquinaCadencia_162] 100
+[2017.07.27-13.38.37:858][601]LogBlueprintUserMessages: [MaquinaCadencia_162] Soy maquina mejorar cadencia
+[2017.07.27-13.38.38:424][635]LogBlueprintUserMessages: [MaquinaCadencia_162] 200
+[2017.07.27-13.38.38:425][635]LogBlueprintUserMessages: [MaquinaCadencia_162] Soy maquina mejorar cadencia
+[2017.07.27-13.38.39:026][671]LogBlueprintUserMessages: [MaquinaCadencia_162] Has salido de zona de mejorar
+[2017.07.27-13.38.39:110][676]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has entrado en zona de mejorar
+[2017.07.27-13.38.39:543][702]LogBlueprintUserMessages: [MaquinaCapacidadCargador_310] Has salido de zona de mejorar
+[2017.07.27-13.38.39:560][703]LogBlueprintUserMessages: [MaquinaDamage_350] Has entrado en zona de mejorar
+[2017.07.27-13.38.39:760][715]LogBlueprintUserMessages: [MaquinaDamage_350] Has salido de zona de mejorar
+[2017.07.27-13.38.41:293][807]LogBlueprintUserMessages: [AKDrop_408] Ya hemos comprado este arma
+[2017.07.27-13.38.41:526][821]LogBlueprintUserMessages: [AKDrop_408] Compro Municion
+[2017.07.27-13.38.44:965][ 27]LogBlueprintUserMessages: [Zombi_C_21] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.45:250][ 44]LogBlueprintUserMessages: [Zombi_C_21] HE MUERTO
+[2017.07.27-13.38.45:250][ 44]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.45:250][ 44]LogBlueprintUserMessages: [Zombi_C_21] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.46:056][ 92]LogBlueprintUserMessages: [Zombi_C_26] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.46:855][140]LogBlueprintUserMessages: [Zombi_C_26] HE MUERTO
+[2017.07.27-13.38.46:855][140]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.46:855][140]LogBlueprintUserMessages: [Zombi_C_26] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.47:858][200]LogBlueprintUserMessages: [Zombi_C_19] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.48:058][212]LogBlueprintUserMessages: [Zombi_C_19] HE MUERTO
+[2017.07.27-13.38.48:058][212]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.48:058][212]LogBlueprintUserMessages: [Zombi_C_19] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.49:263][284]LogBlueprintUserMessages: [Zombi_C_20] HE MUERTO
+[2017.07.27-13.38.49:263][284]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.49:263][284]LogBlueprintUserMessages: [Zombi_C_20] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.50:466][356]LogBlueprintUserMessages: [Zombi_C_28] HE MUERTO
+[2017.07.27-13.38.50:466][356]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.50:466][356]LogBlueprintUserMessages: [Zombi_C_28] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.51:668][428]LogBlueprintUserMessages: [Zombi_C_23] HE MUERTO
+[2017.07.27-13.38.51:668][428]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.51:668][428]LogBlueprintUserMessages: [Zombi_C_23] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.52:068][452]LogBlueprintUserMessages: [Zombi_C_24] HE MUERTO
+[2017.07.27-13.38.52:068][452]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.52:068][452]LogBlueprintUserMessages: [Zombi_C_24] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.53:222][521]LogBlueprintUserMessages: [MaquinaCadencia_162] Has entrado en zona de mejorar
+[2017.07.27-13.38.53:307][526]LogBlueprintUserMessages: [MaquinaCadencia_162] Has salido de zona de mejorar
+[2017.07.27-13.38.54:729][611]LogBlueprintUserMessages: [Zombi_C_22] HE MUERTO
+[2017.07.27-13.38.54:729][611]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.54:729][611]LogBlueprintUserMessages: [Zombi_C_22] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.56:099][693]LogBlueprintUserMessages: [Zombi_C_25] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.56:384][710]LogBlueprintUserMessages: [Zombi_C_25] HE MUERTO
+[2017.07.27-13.38.56:384][710]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.56:384][710]LogBlueprintUserMessages: [Zombi_C_25] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.56:785][734]LogBlueprintUserMessages: [Zombi_C_31] HE MUERTO
+[2017.07.27-13.38.56:785][734]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.56:785][734]LogBlueprintUserMessages: [Zombi_C_31] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.57:184][758]LogBlueprintUserMessages: [Zombi_C_29] HE MUERTO
+[2017.07.27-13.38.57:184][758]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.57:184][758]LogBlueprintUserMessages: [Zombi_C_29] ME HA DADO EN LA CABEZA
+[2017.07.27-13.38.57:984][806]LogBlueprintUserMessages: [Zombi_C_33] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.58:985][866]LogBlueprintUserMessages: [Zombi_C_30] ME HA DADO EN EL TORSO
+[2017.07.27-13.38.59:185][878]LogBlueprintUserMessages: [Zombi_C_30] HE MUERTO
+[2017.07.27-13.38.59:185][878]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.38.59:185][878]LogBlueprintUserMessages: [Zombi_C_30] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.02:843][ 97]LogBlueprintUserMessages: [Zombi_C_33] HE MUERTO
+[2017.07.27-13.39.02:843][ 97]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.02:843][ 97]LogBlueprintUserMessages: [Zombi_C_33] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.03:325][126]LogBlueprintUserMessages: [Zombi_C_32] HE MUERTO
+[2017.07.27-13.39.03:325][126]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.03:325][126]LogBlueprintUserMessages: [Zombi_C_32] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.05:838][276]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.39.08:055][409]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.39.08:323][425]LogBlueprintUserMessages: [Partida_C_0] INICIO RONDA!!!!
+[2017.07.27-13.39.10:122][533]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.39.10:539][558]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.39.11:705][628]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.39.12:972][704]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.39.14:240][780]LogBlueprintUserMessages: [Zombi_C_37] HE MUERTO
+[2017.07.27-13.39.14:240][780]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.14:240][780]LogBlueprintUserMessages: [Zombi_C_37] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.15:127][833]LogBlueprintUserMessages: [Zombi_C_43] HE MUERTO
+[2017.07.27-13.39.15:127][833]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.15:127][833]LogBlueprintUserMessages: [Zombi_C_43] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.18:029][  7]LogBlueprintUserMessages: [Zombi_C_39] HE MUERTO
+[2017.07.27-13.39.18:029][  7]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.18:029][  7]LogBlueprintUserMessages: [Zombi_C_39] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.21:153][194]LogBlueprintUserMessages: [Zombi_C_35] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.21:435][211]LogBlueprintUserMessages: [Zombi_C_35] HE MUERTO
+[2017.07.27-13.39.21:435][211]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.21:435][211]LogBlueprintUserMessages: [Zombi_C_35] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.22:436][271]LogBlueprintUserMessages: [Zombi_C_40] HE MUERTO
+[2017.07.27-13.39.22:436][271]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.22:436][271]LogBlueprintUserMessages: [Zombi_C_40] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.23:037][307]LogBlueprintUserMessages: [Zombi_C_50] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.23:237][319]LogBlueprintUserMessages: [Zombi_C_50] HE MUERTO
+[2017.07.27-13.39.23:237][319]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.23:237][319]LogBlueprintUserMessages: [Zombi_C_50] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.23:849][355]LogBlueprintUserMessages: [Zombi_C_44] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.24:052][367]LogBlueprintUserMessages: [Zombi_C_45] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.24:253][379]LogBlueprintUserMessages: [Zombi_C_44] HE MUERTO
+[2017.07.27-13.39.24:253][379]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.24:253][379]LogBlueprintUserMessages: [Zombi_C_44] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.24:653][403]LogBlueprintUserMessages: [Zombi_C_45] HE MUERTO
+[2017.07.27-13.39.24:653][403]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.24:653][403]LogBlueprintUserMessages: [Zombi_C_45] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.24:862][415]LogBlueprintUserMessages: [Zombi_C_49] HE MUERTO
+[2017.07.27-13.39.24:862][415]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.24:862][415]LogBlueprintUserMessages: [Zombi_C_49] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.25:897][475]LogBlueprintUserMessages: [Zombi_C_41] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.26:098][487]LogBlueprintUserMessages: [Zombi_C_41] HE MUERTO
+[2017.07.27-13.39.26:098][487]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.26:098][487]LogBlueprintUserMessages: [Zombi_C_41] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.26:306][499]LogBlueprintUserMessages: [Zombi_C_46] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.27:115][547]LogBlueprintUserMessages: [Zombi_C_46] HE MUERTO
+[2017.07.27-13.39.27:115][547]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.27:115][547]LogBlueprintUserMessages: [Zombi_C_46] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.30:742][759]LogBlueprintUserMessages: [Zombi_C_38] HE MUERTO
+[2017.07.27-13.39.30:742][759]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.30:742][759]LogBlueprintUserMessages: [Zombi_C_38] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.31:835][823]LogBlueprintUserMessages: [Zombi_C_48] HE MUERTO
+[2017.07.27-13.39.31:835][823]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.31:835][823]LogBlueprintUserMessages: [Zombi_C_48] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.35:312][ 30]LogBlueprintUserMessages: [Zombi_C_47] ME HA DADO EN  LAS PIERNAS
+[2017.07.27-13.39.35:515][ 42]LogBlueprintUserMessages: [Zombi_C_47] HE MUERTO
+[2017.07.27-13.39.35:515][ 42]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.35:515][ 42]LogBlueprintUserMessages: [Zombi_C_47] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.36:254][ 86]LogBlueprintUserMessages: [Zombi_C_36] ME HA DADO EN  LAS PIERNAS
+[2017.07.27-13.39.36:537][103]LogBlueprintUserMessages: [Zombi_C_36] HE MUERTO
+[2017.07.27-13.39.36:537][103]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.36:537][103]LogBlueprintUserMessages: [Zombi_C_36] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.37:745][175]LogBlueprintUserMessages: [Zombi_C_51] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.37:943][187]LogBlueprintUserMessages: [Zombi_C_51] HE MUERTO
+[2017.07.27-13.39.37:943][187]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.37:944][187]LogBlueprintUserMessages: [Zombi_C_51] ME HA DADO EN EL TORSO
+[2017.07.27-13.39.38:747][235]LogBlueprintUserMessages: [Zombi_C_34] HE MUERTO
+[2017.07.27-13.39.38:747][235]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.38:747][235]LogBlueprintUserMessages: [Zombi_C_34] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.39:547][283]LogBlueprintUserMessages: [Zombi_C_42] HE MUERTO
+[2017.07.27-13.39.39:548][283]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.39.39:548][283]LogBlueprintUserMessages: [Zombi_C_42] ME HA DADO EN LA CABEZA
+[2017.07.27-13.39.44:533][582]LogBlueprintUserMessages: [Partida_C_0] INICIO RONDA!!!!
+[2017.07.27-13.39.49:984][909]LogCharacterMovement: Zombi_C_61 is stuck and failed to move! Velocity: X=24.34 Y=23.93 Z=0.00 Location: X=-2009.97 Y=-1707.88 Z=258.30 Normal: X=-0.68 Y=-0.73 Z=0.00 PenetrationDepth:33.444 Actor:Zombi_C_59 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.07.27-13.39.50:033][912]LogCharacterMovement: Zombi_C_59 is stuck and failed to move! Velocity: X=24.99 Y=24.51 Z=0.00 Location: X=-1984.84 Y=-1680.87 Z=260.35 Normal: X=0.68 Y=0.73 Z=0.00 PenetrationDepth:31.105 Actor:Zombi_C_61 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.07.27-13.39.50:084][915]LogCharacterMovement: Zombi_C_62 is stuck and failed to move! Velocity: X=24.34 Y=23.93 Z=0.00 Location: X=-2009.97 Y=-1707.88 Z=258.30 Normal: X=-0.68 Y=-0.73 Z=0.00 PenetrationDepth:29.353 Actor:Zombi_C_59 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.07.27-13.39.51:052][973]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.39.53:056][ 93]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.39.55:063][213]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] vida al maximo
+[2017.07.27-13.39.55:915][264]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.39.57:926][384]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.39.58:924][444]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.39.58:976][447]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.40.00:988][567]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.02:976][686]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.40.04:987][805]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] vida al maximo
+[2017.07.27-13.40.06:223][879]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.06:423][891]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.40.08:425][ 11]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.09:775][ 92]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.40.09:775][ 92]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.40.11:786][212]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.40.12:835][275]LogBlueprintUserMessages: [MaquinaCadencia_162] Has entrado en zona de mejorar
+[2017.07.27-13.40.13:793][332]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.14:157][354]LogBlueprintUserMessages: [MaquinaCadencia_162] Has salido de zona de mejorar
+[2017.07.27-13.40.15:744][449]LogBlueprintUserMessages: [MaquinaCadencia_162] Has entrado en zona de mejorar
+[2017.07.27-13.40.15:780][451]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.40.16:944][521]LogBlueprintUserMessages: [MaquinaCadencia_162] Has salido de zona de mejorar
+[2017.07.27-13.40.17:786][571]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] vida al maximo
+[2017.07.27-13.40.18:705][626]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.18:755][629]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.40.18:904][638]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.40.20:007][704]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 6
+[2017.07.27-13.40.22:015][824]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.40.24:016][944]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.40.24:065][947]LogBlueprintUserMessages: [Zombi_C_63] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.26:022][ 64]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.27:554][156]LogBlueprintUserMessages: [Zombi_C_63] HE MUERTO
+[2017.07.27-13.40.27:554][156]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.40.27:554][156]LogBlueprintUserMessages: [Zombi_C_63] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.28:006][183]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.40.28:040][185]LogBlueprintUserMessages: [Zombi_C_73] HE MUERTO
+[2017.07.27-13.40.28:040][185]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.40.28:040][185]LogBlueprintUserMessages: [Zombi_C_73] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.28:440][209]LogBlueprintUserMessages: [Zombi_C_58] HE MUERTO
+[2017.07.27-13.40.28:440][209]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.40.28:440][209]LogBlueprintUserMessages: [Zombi_C_58] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.29:049][245]LogBlueprintUserMessages: [Zombi_C_67] HE MUERTO
+[2017.07.27-13.40.29:049][245]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.40.29:049][245]LogBlueprintUserMessages: [Zombi_C_67] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.30:022][303]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] vida al maximo
+[2017.07.27-13.40.30:053][305]LogBlueprintUserMessages: [Zombi_C_64] HE MUERTO
+[2017.07.27-13.40.30:053][305]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.40.30:053][305]LogBlueprintUserMessages: [Zombi_C_64] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.30:254][317]LogBlueprintUserMessages: [Zombi_C_54] HE MUERTO
+[2017.07.27-13.40.30:254][317]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.40.30:254][317]LogBlueprintUserMessages: [Zombi_C_54] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.30:660][341]LogBlueprintUserMessages: [Zombi_C_55] HE MUERTO
+[2017.07.27-13.40.30:660][341]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.40.30:660][341]LogBlueprintUserMessages: [Zombi_C_55] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.31:265][377]LogBlueprintUserMessages: [Zombi_C_69] ME HA DADO EN EL TORSO
+[2017.07.27-13.40.33:130][489]LogBlueprintUserMessages: [Zombi_C_66] HE MUERTO
+[2017.07.27-13.40.33:130][489]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.40.33:130][489]LogBlueprintUserMessages: [Zombi_C_66] ME HA DADO EN LA CABEZA
+[2017.07.27-13.40.33:419][506]LogBlueprintUserMessages: [Zombi_C_68] ME HA DADO EN EL TORSO
+[2017.07.27-13.40.34:223][554]LogBlueprintUserMessages: [Zombi_C_71] ME HA DADO EN EL TORSO
+[2017.07.27-13.40.39:662][880]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.41:663][  0]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.40.42:512][ 51]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.42:512][ 51]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.40.44:513][171]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.44:544][173]LogBlueprintUserMessages: [Puerta_162] Has entrado en zona de mejorar
+[2017.07.27-13.40.45:328][220]LogBlueprintUserMessages: [Puerta_162] Has salido de zona de mejorar
+[2017.07.27-13.40.46:514][291]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.40.48:514][411]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] vida al maximo
+[2017.07.27-13.40.54:814][789]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.40.56:815][909]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.40.58:815][ 29]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] vida al maximo
+[2017.07.27-13.40.58:830][ 30]LogBlueprintUserMessages: [shotgunDrop_110] Ya hemos comprado este arma
+[2017.07.27-13.40.59:163][ 50]LogBlueprintUserMessages: [M4a1Drop_232] Aun no hemos comprado este arma
+[2017.07.27-13.41.04:914][393]LogBlueprintUserMessages: [Power-upTiempoRecarga_422] Has entrado en zona de mejorar
+[2017.07.27-13.41.05:799][446]LogBlueprintUserMessages: [Power-upTiempoRecarga_422] Has salido de zona de mejorar
+[2017.07.27-13.41.09:285][655]LogBlueprintUserMessages: [MaquinaRecarga_262] Has entrado en zona de mejorar
+[2017.07.27-13.41.09:668][678]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has entrado en zona de mejorar
+[2017.07.27-13.41.09:686][679]LogBlueprintUserMessages: [MaquinaRecarga_262] Has salido de zona de mejorar
+[2017.07.27-13.41.10:051][701]LogBlueprintUserMessages: [MaquinaDamage_350] Has entrado en zona de mejorar
+[2017.07.27-13.41.10:051][701]LogBlueprintUserMessages: [MaquinaMunicionMax_262] Has salido de zona de mejorar
+[2017.07.27-13.41.10:401][722]LogBlueprintUserMessages: [MaquinaDamage_350] Has salido de zona de mejorar
+[2017.07.27-13.41.18:745][222]LogBlueprintUserMessages: [MaquinaCadencia_162] Has entrado en zona de mejorar
+[2017.07.27-13.41.19:596][273]LogBlueprintUserMessages: [MaquinaCadencia_162] Has salido de zona de mejorar
+[2017.07.27-13.41.20:630][335]LogBlueprintUserMessages: [MaquinaCadencia_162] Has entrado en zona de mejorar
+[2017.07.27-13.41.21:179][368]LogBlueprintUserMessages: [MaquinaCadencia_162] Has salido de zona de mejorar
+[2017.07.27-13.41.29:571][871]LogBlueprintUserMessages: [Zombi_C_60] ME HA DADO EN LA CABEZA
+[2017.07.27-13.41.30:993][956]LogBlueprintUserMessages: [Zombi_C_60] HE MUERTO
+[2017.07.27-13.41.30:994][956]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.41.30:994][956]LogBlueprintUserMessages: [Zombi_C_60] ME HA DADO EN LA CABEZA
+[2017.07.27-13.41.35:038][198]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.41.35:038][198]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.41.35:140][204]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.41.36:726][299]LogBlueprintUserMessages: [Zombi_C_62] ME HA DADO EN  LAS PIERNAS
+[2017.07.27-13.41.37:145][324]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.41.38:498][405]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.41.38:898][429]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 6
+[2017.07.27-13.41.38:999][435]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 5
+[2017.07.27-13.41.40:600][531]LogBlueprintUserMessages: [Zombi_C_70] ME HA DADO EN LA CABEZA
+[2017.07.27-13.41.41:001][555]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 6
+[2017.07.27-13.41.43:004][675]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.41.45:005][795]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.41.45:387][818]LogBlueprintUserMessages: [Zombi_C_72] ME HA DADO EN LA CABEZA
+[2017.07.27-13.41.46:454][882]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.41.46:953][912]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 6
+[2017.07.27-13.41.46:970][913]LogBlueprintUserMessages: [Zombi_C_72] HE MUERTO
+[2017.07.27-13.41.46:970][913]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.41.46:970][913]LogBlueprintUserMessages: [Zombi_C_72] ME HA DADO EN LA CABEZA
+[2017.07.27-13.41.47:456][942]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 5
+[2017.07.27-13.41.47:955][972]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 4
+[2017.07.27-13.41.48:443][  1]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 3
+[2017.07.27-13.41.48:777][ 21]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 2
+[2017.07.27-13.41.49:760][ 80]LogBlueprintUserMessages: [Zombi_C_62] HE MUERTO
+[2017.07.27-13.41.49:760][ 80]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.41.49:760][ 80]LogBlueprintUserMessages: [Zombi_C_62] ME HA DADO EN LA CABEZA
+[2017.07.27-13.41.50:777][141]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 3
+[2017.07.27-13.41.52:511][245]LogBlueprintUserMessages: [Zombi_C_70] HE MUERTO
+[2017.07.27-13.41.52:511][245]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.41.52:511][245]LogBlueprintUserMessages: [Zombi_C_70] ME HA DADO EN LA CABEZA
+[2017.07.27-13.41.52:786][261]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 4
+[2017.07.27-13.41.54:769][380]LogBlueprintUserMessages: [Zombi_C_69] HE MUERTO
+[2017.07.27-13.41.54:769][380]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.41.54:769][380]LogBlueprintUserMessages: [Zombi_C_69] ME HA DADO EN LA CABEZA
+[2017.07.27-13.41.54:786][381]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 5
+[2017.07.27-13.41.56:788][501]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 6
+[2017.07.27-13.41.57:387][537]LogBlueprintUserMessages: [Zombi_C_53] ME HA DADO EN EL TORSO
+[2017.07.27-13.41.58:780][618]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 7
+[2017.07.27-13.41.59:396][655]LogBlueprintUserMessages: [Zombi_C_57] ME HA DADO EN EL TORSO
+[2017.07.27-13.42.00:777][737]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 8
+[2017.07.27-13.42.00:926][746]LogBlueprintUserMessages: [Zombi_C_57] HE MUERTO
+[2017.07.27-13.42.00:926][746]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.42.00:926][746]LogBlueprintUserMessages: [Zombi_C_57] ME HA DADO EN LA CABEZA
+[2017.07.27-13.42.02:783][857]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 9
+[2017.07.27-13.42.02:916][865]LogBlueprintUserMessages: [Zombi_C_59] ME HA DADO EN LA CABEZA
+[2017.07.27-13.42.04:487][958]LogBlueprintUserMessages: [Zombi_C_59] HE MUERTO
+[2017.07.27-13.42.04:487][958]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.42.04:487][958]LogBlueprintUserMessages: [Zombi_C_59] ME HA DADO EN LA CABEZA
+[2017.07.27-13.42.04:788][976]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Mi vida actual es es: 10
+[2017.07.27-13.42.06:786][ 96]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] vida al maximo
+[2017.07.27-13.42.08:856][220]LogBlueprintUserMessages: [Zombi_C_56] ME HA DADO EN LA CABEZA
+[2017.07.27-13.42.10:671][329]LogBlueprintUserMessages: [Zombi_C_68] HE MUERTO
+[2017.07.27-13.42.10:671][329]LogBlueprintUserMessages: [Partida_C_0] MATO UNO
+[2017.07.27-13.42.10:671][329]LogBlueprintUserMessages: [Zombi_C_68] ME HA DADO EN LA CABEZA
+[2017.07.27-13.42.12:321][428]LogBlueprintUserMessages: [Zombi_C_65] ME HA DADO EN LA CABEZA
+[2017.07.27-13.42.14:122][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.42.14:180][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.07.27-13.42.16:560][656]LogSavePackage: Save=246.95ms
+[2017.07.27-13.42.16:560][656]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMap5E9F87DC423CE790AE97019D3DDD5B7F.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.07.27-13.42.16:565][656]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.07.27-13.42.17:604][656]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.27-13.42.17:958][656]LogSavePackage: Save=1334.72ms
+[2017.07.27-13.42.17:958][656]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonExampleMap_BuiltData974C8FD14C96C4EF30B4C680C1368500.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.07.27-13.42.17:962][656]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.07.27-13.42.45:277][ 49]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.27-13.42.50:449][287]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-13.42.50:674][288]Cmd: QUIT_EDITOR
+[2017.07.27-13.42.51:394][288]LogExit: Preparing to exit.
+[2017.07.27-13.42.51:772][288]LogExit: Editor shut down
+[2017.07.27-13.42.51:779][288]LogExit: Transaction tracking system shut down
+[2017.07.27-13.42.52:043][288]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.27-13.42.52:043][288]LogExit: Object subsystem successfully closed.
+[2017.07.27-13.42.52:098][288]LogD3D11RHI: Shutdown
+[2017.07.27-13.42.52:099][288]LogD3D11RHI: CleanupD3DDevice
+[2017.07.27-13.42.52:441][288]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.27-13.42.52:457][288]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2017.07.27-13.42.52:457][288]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.07.27-13.42.52:457][288]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.07.27-13.42.52:457][288]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.07.27-13.42.52:457][288]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.27-13.42.52:457][288]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.27-13.42.52:457][288]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.27-13.42.52:457][288]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.27-13.42.52:457][288]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.27-13.42.52:459][288]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Collections/' was aborted.
+[2017.07.27-13.42.52:459][288]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Developers/cripe/Collections/' was aborted.
+[2017.07.27-13.42.52:459][288]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Collections/' was aborted.
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.27-13.42.52:459][288]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.27-13.42.52:460][288]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.27-13.42.52:776][288]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.27-13.42.52:777][288]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.27-13.42.52:777][288]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.27-13.42.52:777][288]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.27-13.42.52:777][288]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.27-13.42.52:841][288]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.27-13.42.52:859][288]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.27-13.42.52:860][288]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.27-13.42.52:860][288]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.27-13.42.52:860][288]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.27-13.42.53:014][288]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.27-13.42.53:015][288]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.27-13.42.53:016][288]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.27-13.42.53:016][288]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.27-13.42.53:016][288]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.27-13.42.53:017][288]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.27-13.42.53:017][288]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.27-13.42.53:017][288]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.27-13.42.53:017][288]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.27-13.42.53:017][288]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.27-13.42.53:017][288]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.27-13.42.53:117][288]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.27-13.42.53:218][288]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.27-13.42.53:218][288]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.27-13.42.53:218][288]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.27-13.42.53:218][288]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.27-13.42.53:218][288]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.27-13.42.53:218][288]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.27-13.42.53:219][288]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.27-13.42.53:220][288]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.27-13.42.53:222][288]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.27-13.42.53:222][288]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.27-13.42.53:222][288]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.27-13.42.53:222][288]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.27-13.42.53:222][288]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.27-13.42.53:222][288]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.27-13.42.53:425][288]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.27-13.42.53:426][288]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/' was aborted.
+[2017.07.27-13.42.53:426][288]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.27-13.42.53:426][288]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.27-13.42.53:429][288]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.27-13.42.53:430][288]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.27-13.42.53:430][288]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.27-13.42.53:430][288]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.27-13.42.53:430][288]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.27-13.42.53:430][288]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.27-13.42.53:430][288]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.27-13.42.53:430][288]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.27-13.42.53:430][288]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.27-13.42.53:448][288]LogDerivedDataCache: Shutdown
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.27-13.42.53:448][288]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.27-13.42.53:449][288]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.27-13.42.53:449][288]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.27-13.42.53:449][288]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.27-13.42.53:449][288]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B704D1045-434D-B9C4-4EDF-E4A6E75A7783%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=78865e4d4a8ae815e8d400bc6125e577%7C5361294e5f654db5881228f5582e9124%7C456667b1-22e8-45ef-a524-8410a492a64f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.27-13.42.53:452][288]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.27-13.42.53:453][288]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.27-13.42.53:453][288]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.27-13.42.53:454][288]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.27-13.42.53:454][288]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.27-13.42.53:454][288]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.27-13.42.53:454][288]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.27-13.42.53:454][288]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.27-13.42.53:454][288]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.27-13.42.53:455][288]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.27-13.42.53:457][288]LogExit: Exiting.
+[2017.07.27-13.42.53:481][288]Log file closed, 07/27/17 15:42:53
