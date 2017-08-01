@@ -1,0 +1,727 @@
+﻿Log file open, 08/01/17 20:20:30
+LogInit:Display: Running engine for game: Postwar
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1014855380) SRandInit(-1014855380).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092890
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.01-18.20.31:227][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-18.20.31:227][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.01-18.20.31:236][  0]LogInit: Computer: DESKTOP-T9NOKQO
+[2017.08.01-18.20.31:236][  0]LogInit: User: cripe
+[2017.08.01-18.20.31:236][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.01-18.20.31:236][  0]LogInit: High frequency timer resolution =2.435773 MHz
+[2017.08.01-18.20.31:237][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.01-18.20.31:237][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.01-18.20.31:237][  0]LogMemory: Process Physical Memory: 274.34 MB used, 274.34 MB peak
+[2017.08.01-18.20.31:237][  0]LogMemory: Process Virtual Memory: 261.13 MB used, 261.13 MB peak
+[2017.08.01-18.20.31:237][  0]LogMemory: Physical Memory: 4471.55 MB used,  11831.59 MB free, 16303.14 MB total
+[2017.08.01-18.20.31:237][  0]LogMemory: Virtual Memory: 624.58 MB used,  11831.59 MB free, 134217728.00 MB total
+[2017.08.01-18.20.31:301][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.08.01-18.20.31:301][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.08.01-18.20.32:239][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.01-18.20.32:827][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.08.01-18.20.32:827][  0]LogD3D11RHI:       2017/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.01-18.20.32:832][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.08.01-18.20.32:832][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.01-18.20.32:834][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.01-18.20.32:834][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.01-18.20.32:834][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.01-18.20.32:841][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.01-18.20.32:841][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
+[2017.08.01-18.20.32:841][  0]LogWindows: EnumDisplayDevices:
+[2017.08.01-18.20.32:842][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.08.01-18.20.32:842][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.08.01-18.20.32:842][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.01-18.20.32:843][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.01-18.20.32:843][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.08.01-18.20.32:843][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.01-18.20.32:843][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.01-18.20.32:843][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.01-18.20.33:393][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.01-18.20.33:413][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.01-18.20.33:414][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Intermediate/Shaders/WorkingDirectory/12700/).
+[2017.08.01-18.20.33:414][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cripe/AppData/Local/Temp/UnrealShaderWorkingDir/FDFDAED74BFDB9C8507CD38A928E97C1/'.
+[2017.08.01-18.20.33:414][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.01-18.20.34:447][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.01-18.20.34:490][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.01-18.20.34:532][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.01-18.20.34:574][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.01-18.20.34:618][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.01-18.20.34:662][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.01-18.20.34:706][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.01-18.20.34:749][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.01-18.20.34:785][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.01-18.20.34:827][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.01-18.20.34:874][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.01-18.20.34:925][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.01-18.20.34:974][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.01-18.20.35:016][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.01-18.20.35:057][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.01-18.20.35:140][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.01-18.20.35:140][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.01-18.20.35:171][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.01-18.20.35:250][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.01-18.20.35:273][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.01-18.20.35:317][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.01-18.20.35:358][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.01-18.20.35:398][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.01-18.20.35:438][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.01-18.20.35:438][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.01-18.20.35:830][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.01-18.20.35:925][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-18.20.35:925][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.01-18.20.35:925][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.01-18.20.35:925][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.01-18.20.35:925][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.01-18.20.35:925][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.01-18.20.35:943][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.01-18.20.35:956][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cripe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.01-18.20.35:966][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.01-18.20.35:967][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.01-18.20.35:967][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-18.20.35:967][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-18.20.36:292][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-18.20.36:366][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.01-18.20.36:510][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.01-18.20.36:552][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.01-18.20.36:593][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.01-18.20.36:593][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.01-18.20.36:593][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.01-18.20.37:104][  0]LogNetVersion: Postwar , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2296384490)
+[2017.08.01-18.20.37:163][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.08.01-18.20.37:195][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.015432 seconds
+[2017.08.01-18.20.37:200][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.01-18.20.37:200][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.01-18.20.37:200][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.01-18.20.37:248][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.01-18.20.39:484][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.01-18.20.39:520][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.01-18.20.39:988][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.01-18.20.40:338][  0]SourceControl: Info Source control is disabled
+[2017.08.01-18.20.40:572][  0]SourceControl: Info Source control is disabled
+[2017.08.01-18.20.40:615][  0]SourceControl: Info Source control is disabled
+[2017.08.01-18.20.40:656][  0]SourceControl: Info Source control is disabled
+[2017.08.01-18.20.41:242][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.01-18.20.41:759][  0]LogEngine: Initializing Engine...
+[2017.08.01-18.20.41:760][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.01-18.20.41:962][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.01-18.20.41:962][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.01-18.20.42:066][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.01-18.20.42:077][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-18.20.42:094][  0]LogInit: FAudioDevice initialized.
+[2017.08.01-18.20.42:137][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-18.20.42:151][  0]LogInit: Texture streaming: Enabled
+[2017.08.01-18.20.42:228][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.01-18.20.42:228][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={29392F76-4AC5-0B7C-BBF4-7D8122E2DF20}
+[2017.08.01-18.20.42:405][  0]LogInit: Transaction tracking system initialized
+[2017.08.01-18.20.42:654][  0]BlueprintLog: New page: Editor Load
+[2017.08.01-18.20.43:409][  0]LocalizationService: Info Localization service is disabled
+[2017.08.01-18.20.43:975][  0]LogConsoleResponse:Display: 
+[2017.08.01-18.20.44:103][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.01-18.20.44:103][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.01-18.20.44:540][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/' took 0.02s
+[2017.08.01-18.20.44:955][  0]SourceControl: Info Source control is disabled
+[2017.08.01-18.20.44:955][  0]Cmd: MAP LOAD FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-18.20.44:956][  0]LightingResults: New page: Lighting Build
+[2017.08.01-18.20.44:990][  0]MapCheck: New page: Map Check
+[2017.08.01-18.20.44:990][  0]LightingResults: New page: Lighting Build
+[2017.08.01-18.20.45:368][  0]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.01-18.20.45:368][  0]LogBlueprint:Warning: [WeaponParent] 'Opac' variable not found. Base class was probably changed.
+[2017.08.01-18.20.45:459][  0]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.01-18.20.47:045][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.01-18.20.47:077][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-18.20.47:116][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-18.20.47:198][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.811ms to complete.
+[2017.08.01-18.20.47:198][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.243
+[2017.08.01-18.20.47:263][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.01-18.20.47:345][  0]LogCollectionManager: Loaded 0 collections in 0.001880 seconds
+[2017.08.01-18.20.47:420][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Collections/' took 0.01s
+[2017.08.01-18.20.47:420][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Developers/cripe/Collections/' took 0.01s
+[2017.08.01-18.20.47:420][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Collections/' took 0.01s
+[2017.08.01-18.20.47:420][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.01-18.20.47:429][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2329 classes and 491 folders.
+[2017.08.01-18.20.47:482][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.01-18.20.47:530][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.01-18.20.47:567][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.01-18.20.47:667][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.01-18.20.47:673][  0]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-18.20.47:675][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.01-18.20.47:680][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.01-18.20.47:776][  0]LogRenderer: Reallocating scene render targets to support 1208x620 NumSamples 1 (Frame:1).
+[2017.08.01-18.20.47:905][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.01-18.20.47:971][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.01-18.20.47:971][  0]LogLoad: (Engine Initialization) Total time: 18.25 seconds
+[2017.08.01-18.20.47:971][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.08.01-18.20.47:971][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.01-18.20.47:971][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.01-18.20.47:988][  0]LogOcInput: OculusInput pre-init called
+[2017.08.01-18.20.47:988][  0]LogHMD: Starting GearVRController plugin
+[2017.08.01-18.20.48:015][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.01-18.20.48:061][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-18.20.48:092][  1]LogAssetRegistry: Asset discovery search completed in 10.9509 seconds
+[2017.08.01-18.20.48:095][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.01-18.20.48:095][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
+[2017.08.01-18.20.49:014][ 52]LogSlate: Took 0.000631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-18.21.15:603][423]LogAIModule: Creating AISystem for world Mapa
+[2017.08.01-18.21.20:872][736]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-18.21.21:910][736]LogMetaData: Removing '/Game/FirstPersonBP/PostWar/Niveles/Mapa.SKEL_Mapa_C' ref from Metadata '/Game/FirstPersonBP/Maps/Mapa.PackageMetaData'
+[2017.08.01-18.21.21:910][736]LogMetaData: Removing '/Game/FirstPersonBP/PostWar/Niveles/Mapa.Mapa_C' ref from Metadata '/Game/FirstPersonBP/Maps/Mapa.PackageMetaData'
+[2017.08.01-18.21.23:101][736]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-18.21.23:134][736]LogSavePackage: Save=1073.41ms
+[2017.08.01-18.21.23:134][736]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/MapaB34481F64409C4CCBA516997F1B6AE15.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap'
+[2017.08.01-18.21.23:137][736]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap
+[2017.08.01-18.21.23:157][736]LogFileHelpers: Saving map 'Mapa' took 1.220
+[2017.08.01-18.21.27:826][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.01-18.21.28:247][904]LogSavePackage: Save=415.20ms
+[2017.08.01-18.21.28:247][904]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter4AF29B0848DD24FE70C0C6818F336127.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.01-18.21.28:249][904]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.01-18.21.29:469][904]LogSavePackage: Save=1075.50ms
+[2017.08.01-18.21.29:469][904]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Mapa41DA896E4C43DB26DB23C98EA67DE2C4.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap'
+[2017.08.01-18.21.29:473][904]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap
+[2017.08.01-18.21.29:490][904]LogFileHelpers: Saving map 'Mapa' took 1.241
+[2017.08.01-18.21.29:492][904]Cmd: MAP LOAD FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-18.21.29:492][904]LightingResults: New page: Lighting Build
+[2017.08.01-18.21.29:493][904]LoadErrors: New page: Loading map: Mapa.umap
+[2017.08.01-18.21.29:494][904]MapCheck: New page: Map Check
+[2017.08.01-18.21.29:494][904]LightingResults: New page: Lighting Build
+[2017.08.01-18.21.29:626][904]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-18.21.29:672][904]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-18.21.29:757][904]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.557ms to complete.
+[2017.08.01-18.21.29:758][904]LogFileHelpers: Loading map 'Mapa' took 0.267
+[2017.08.01-18.21.52:845][274]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.01-18.22.15:305][608]LogEditorActor: Deleted Actor: AKDrop_C
+[2017.08.01-18.22.15:305][608]LogEditorActor: Deleted Actor: AKDrop_C
+[2017.08.01-18.22.15:306][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:306][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:306][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:306][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:306][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:306][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:306][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:306][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:307][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:308][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:308][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:308][608]LogEditorActor: Deleted Actor: IASpawn_C
+[2017.08.01-18.22.15:308][608]LogEditorActor: Deleted Actor: M4a1Drop_C
+[2017.08.01-18.22.15:308][608]LogEditorActor: Deleted Actor: M4a1Drop_C
+[2017.08.01-18.22.15:308][608]LogEditorActor: Deleted Actor: MaquinaCadencia_C
+[2017.08.01-18.22.15:308][608]LogEditorActor: Deleted Actor: MaquinaCapacidadCargador_C
+[2017.08.01-18.22.15:309][608]LogEditorActor: Deleted Actor: MaquinaDamage_C
+[2017.08.01-18.22.15:309][608]LogEditorActor: Deleted Actor: MaquinaMunicionMax_C
+[2017.08.01-18.22.15:309][608]LogEditorActor: Deleted Actor: MaquinaRecarga_C
+[2017.08.01-18.22.15:309][608]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2017.08.01-18.22.15:309][608]LogEditorActor: Deleted Actor: Power-upResistencia_C
+[2017.08.01-18.22.15:309][608]LogEditorActor: Deleted Actor: Power-upRevivir_C
+[2017.08.01-18.22.15:310][608]LogEditorActor: Deleted Actor: Power-upTiempoRecarga_C
+[2017.08.01-18.22.15:310][608]LogEditorActor: Deleted Actor: Puerta_C
+[2017.08.01-18.22.15:310][608]LogEditorActor: Deleted Actor: Puerta_C
+[2017.08.01-18.22.15:310][608]LogEditorActor: Deleted Actor: Puerta_C
+[2017.08.01-18.22.15:311][608]LogEditorActor: Deleted Actor: RecastNavMesh
+[2017.08.01-18.22.15:311][608]LogEditorActor: Deleted Actor: shotgunDrop_C
+[2017.08.01-18.22.15:311][608]LogEditorActor: Deleted Actor: shotgunDrop_C
+[2017.08.01-18.22.15:311][608]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.08.01-18.22.15:311][608]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.08.01-18.22.15:311][608]LogEditorActor: Deleted Actor: ZonaBP_C
+[2017.08.01-18.22.15:312][608]LogEditorActor: Deleted Actor: ZonaBP_C
+[2017.08.01-18.22.15:312][608]LogEditorActor: Deleted Actor: ZonaBP_C
+[2017.08.01-18.22.15:323][608]LogEditorActor: Deleted 44 Actors (0.018 secs)
+[2017.08.01-18.22.17:198][721]LogEditorViewport: Clicking Background
+[2017.08.01-18.22.29:301][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.01-18.22.44:497][173]LogSavePackage: Save=938.49ms
+[2017.08.01-18.22.44:497][173]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Mapa3980F5924F128EC60E183D8F854A78AD.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap'
+[2017.08.01-18.22.44:502][173]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap
+[2017.08.01-18.22.44:535][173]LogFileHelpers: Saving map 'Mapa' took 1.080
+[2017.08.01-18.25.27:774][278]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Usuario\Descargas\Mapa TFG\mesa reunion\mesa.FBX)
+[2017.08.01-18.25.27:812][278]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.01-18.25.27:812][278]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.01-18.25.27:812][278]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.01-18.25.27:812][278]LogFbx: ItemName: Model, ItemCount : 13
+[2017.08.01-18.25.27:812][278]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2017.08.01-18.25.27:812][278]LogFbx: ItemName: Geometry, ItemCount : 12
+[2017.08.01-18.25.27:812][278]LogFbx: ItemName: Material, ItemCount : 23
+[2017.08.01-18.25.27:817][278]LogFbx: Loading FBX Scene from E:\Usuario\Descargas\Mapa TFG\mesa reunion\mesa.FBX
+[2017.08.01-18.25.27:910][278]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.01-18.25.27:913][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #3' was rename 'Material #32 Slot #3_ncl1_1' 
+[2017.08.01-18.25.27:913][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #4' was rename 'Material #32 Slot #4_ncl1_1' 
+[2017.08.01-18.25.27:913][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #5' was rename 'Material #32 Slot #5_ncl1_1' 
+[2017.08.01-18.25.27:914][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #6' was rename 'Material #32 Slot #6_ncl1_1' 
+[2017.08.01-18.25.27:914][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #7' was rename 'Material #32 Slot #7_ncl1_1' 
+[2017.08.01-18.25.27:914][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #8' was rename 'Material #32 Slot #8_ncl1_1' 
+[2017.08.01-18.25.27:914][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #9' was rename 'Material #32 Slot #9_ncl1_1' 
+[2017.08.01-18.25.27:914][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #10' was rename 'Material #32 Slot #10_ncl1_1' 
+[2017.08.01-18.25.38:279][278]LogFbx: Loading FBX Scene from E:\Usuario\Descargas\Mapa TFG\mesa reunion\mesa.FBX
+[2017.08.01-18.25.38:374][278]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.01-18.25.38:380][278]LogStaticMesh: Building static mesh mesa_Shape001...
+[2017.08.01-18.25.38:398][278]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape001.mesa_Shape001
+[2017.08.01-18.25.38:416][278]LogStaticMesh: Building static mesh mesa_Cylinder001...
+[2017.08.01-18.25.38:441][278]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder001.mesa_Cylinder001
+[2017.08.01-18.25.38:457][278]LogStaticMesh: Building static mesh mesa_Box002...
+[2017.08.01-18.25.38:462][278]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box002.mesa_Box002
+[2017.08.01-18.25.38:471][278]LogStaticMesh: Building static mesh mesa_Shape004...
+[2017.08.01-18.25.38:491][278]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape004.mesa_Shape004
+[2017.08.01-18.25.38:503][278]LogStaticMesh: Building static mesh mesa_Shape006...
+[2017.08.01-18.25.38:520][278]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape006.mesa_Shape006
+[2017.08.01-18.25.38:532][278]LogStaticMesh: Building static mesh mesa_Shape007...
+[2017.08.01-18.25.38:551][278]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape007.mesa_Shape007
+[2017.08.01-18.25.38:566][278]LogStaticMesh: Building static mesh mesa_Cylinder015...
+[2017.08.01-18.25.38:591][278]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder015.mesa_Cylinder015
+[2017.08.01-18.25.38:595][278]LogStaticMesh:Warning: mesa_Cylinder015 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.08.01-18.25.38:717][278]LogStaticMesh: Building static mesh mesa_Object006...
+[2017.08.01-18.25.39:266][278]LogStaticMesh: Built static mesh [0.55s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object006.mesa_Object006
+[2017.08.01-18.25.39:445][278]LogStaticMesh: Building static mesh mesa_Object002...
+[2017.08.01-18.25.39:446][278]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object002.mesa_Object002
+[2017.08.01-18.25.39:446][278]LogStaticMesh:Warning: mesa_Object002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.08.01-18.25.39:463][278]LogStaticMesh: Building static mesh mesa_Object004...
+[2017.08.01-18.25.39:502][278]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object004.mesa_Object004
+[2017.08.01-18.25.39:527][278]LogStaticMesh: Building static mesh mesa_Box003...
+[2017.08.01-18.25.39:528][278]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box003.mesa_Box003
+[2017.08.01-18.25.39:529][278]LogStaticMesh:Warning: mesa_Box003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.08.01-18.25.39:546][278]LogStaticMesh: Building static mesh mesa_Object005...
+[2017.08.01-18.25.39:585][278]LogStaticMesh: Built static mesh [0.04s] /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object005.mesa_Object005
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #3' was rename 'Material #32 Slot #3_ncl1_1' 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #4' was rename 'Material #32 Slot #4_ncl1_1' 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #5' was rename 'Material #32 Slot #5_ncl1_1' 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #6' was rename 'Material #32 Slot #6_ncl1_1' 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #7' was rename 'Material #32 Slot #7_ncl1_1' 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #8' was rename 'Material #32 Slot #8_ncl1_1' 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #9' was rename 'Material #32 Slot #9_ncl1_1' 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Material #32 Slot #10' was rename 'Material #32 Slot #10_ncl1_1' 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning mesa_Cylinder015 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning mesa_Object002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.08.01-18.25.39:608][278]FBXImport:Warning: Warning mesa_Box003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.08.01-18.25.52:507][824]LogActorFactory: Actor Factory created mesa_Object006
+[2017.08.01-18.25.53:048][856]LogActorFactory: Actor Factory created mesa_Object006
+[2017.08.01-18.26.04:100][373]LogActorFactory: Actor Factory created mesa_Box002
+[2017.08.01-18.26.04:705][409]LogActorFactory: Actor Factory created mesa_Box002
+[2017.08.01-18.28.48:741][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesa_Box002)
+[2017.08.01-18.28.53:391][751]Cmd: DELETE
+[2017.08.01-18.28.53:391][751]Cmd: ACTOR DELETE
+[2017.08.01-18.28.53:392][751]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.01-18.28.53:406][751]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.08.01-18.28.54:333][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesa_Object006)
+[2017.08.01-18.32.46:387][400]LogSavePackage: Save=993.39ms
+[2017.08.01-18.32.46:387][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Mapa_Auto111F367FD4499A2880AE06B8A915A42C6.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Niveles/Mapa_Auto1.umap'
+[2017.08.01-18.32.46:388][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Niveles/Mapa_Auto1.umap
+[2017.08.01-18.32.46:391][400]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/Mapa' took 3.698
+[2017.08.01-18.32.46:391][400]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.698
+[2017.08.01-18.32.46:399][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape001] ([1] browsable assets)...
+[2017.08.01-18.32.46:421][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape001.mesa_Shape001]
+[2017.08.01-18.32.46:421][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape001]
+[2017.08.01-18.32.46:433][400]LogSavePackage: Save=10.48ms
+[2017.08.01-18.32.46:433][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Shape001_Auto18A6B62DA460EC591BE0E0D8A848BABB7.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape001_Auto1.uasset'
+[2017.08.01-18.32.46:434][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape001_Auto1.uasset
+[2017.08.01-18.32.46:435][400]LogExec:Warning: Missing filename
+[2017.08.01-18.32.46:436][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder001] ([1] browsable assets)...
+[2017.08.01-18.32.46:454][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder001.mesa_Cylinder001]
+[2017.08.01-18.32.46:454][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder001]
+[2017.08.01-18.32.46:466][400]LogSavePackage: Save=11.24ms
+[2017.08.01-18.32.46:466][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Cylinder001_Auto1ACF5FDC541469DDA0A4039A0CD43851D.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder001_Auto1.uasset'
+[2017.08.01-18.32.46:468][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder001_Auto1.uasset
+[2017.08.01-18.32.46:469][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box002] ([1] browsable assets)...
+[2017.08.01-18.32.46:485][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box002.mesa_Box002]
+[2017.08.01-18.32.46:486][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box002]
+[2017.08.01-18.32.46:498][400]LogSavePackage: Save=10.83ms
+[2017.08.01-18.32.46:498][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Box002_Auto10846CE314E93002D6A8CF689502A5493.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box002_Auto1.uasset'
+[2017.08.01-18.32.46:499][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box002_Auto1.uasset
+[2017.08.01-18.32.46:500][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape004] ([1] browsable assets)...
+[2017.08.01-18.32.46:517][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape004.mesa_Shape004]
+[2017.08.01-18.32.46:517][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape004]
+[2017.08.01-18.32.46:529][400]LogSavePackage: Save=10.63ms
+[2017.08.01-18.32.46:529][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Shape004_Auto15CEAD2F24D71F9A44BE7A18D27795D1B.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape004_Auto1.uasset'
+[2017.08.01-18.32.46:530][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape004_Auto1.uasset
+[2017.08.01-18.32.46:531][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape006] ([1] browsable assets)...
+[2017.08.01-18.32.46:548][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape006.mesa_Shape006]
+[2017.08.01-18.32.46:548][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape006]
+[2017.08.01-18.32.46:560][400]LogSavePackage: Save=10.79ms
+[2017.08.01-18.32.46:560][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Shape006_Auto1B885D63F43D3EA3FF7911FAB9AE779E3.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape006_Auto1.uasset'
+[2017.08.01-18.32.46:562][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape006_Auto1.uasset
+[2017.08.01-18.32.46:563][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape007] ([1] browsable assets)...
+[2017.08.01-18.32.46:581][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape007.mesa_Shape007]
+[2017.08.01-18.32.46:581][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape007]
+[2017.08.01-18.32.46:594][400]LogSavePackage: Save=11.42ms
+[2017.08.01-18.32.46:594][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Shape007_Auto1D3AE83E4438004F9D371D2AA45638EAD.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape007_Auto1.uasset'
+[2017.08.01-18.32.46:595][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Shape007_Auto1.uasset
+[2017.08.01-18.32.46:596][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder015] ([1] browsable assets)...
+[2017.08.01-18.32.46:612][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder015.mesa_Cylinder015]
+[2017.08.01-18.32.46:612][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder015]
+[2017.08.01-18.32.46:625][400]LogSavePackage: Save=11.58ms
+[2017.08.01-18.32.46:625][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Cylinder015_Auto1FE455DED44D1990296A245887EB03F10.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder015_Auto1.uasset'
+[2017.08.01-18.32.46:626][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Cylinder015_Auto1.uasset
+[2017.08.01-18.32.46:627][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object006] ([1] browsable assets)...
+[2017.08.01-18.32.46:645][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object006.mesa_Object006]
+[2017.08.01-18.32.46:645][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object006]
+[2017.08.01-18.32.46:659][400]LogSavePackage: Save=12.47ms
+[2017.08.01-18.32.46:659][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Object006_Auto140AB70D3473C09288F386CAAB4CCAAF5.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object006_Auto1.uasset'
+[2017.08.01-18.32.46:660][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object006_Auto1.uasset
+[2017.08.01-18.32.46:661][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object002] ([1] browsable assets)...
+[2017.08.01-18.32.46:678][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object002.mesa_Object002]
+[2017.08.01-18.32.46:678][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object002]
+[2017.08.01-18.32.46:690][400]LogSavePackage: Save=10.37ms
+[2017.08.01-18.32.46:690][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Object002_Auto111BC33DF498172C6EB068BB8122AD3C5.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object002_Auto1.uasset'
+[2017.08.01-18.32.46:691][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object002_Auto1.uasset
+[2017.08.01-18.32.46:692][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object004] ([1] browsable assets)...
+[2017.08.01-18.32.46:710][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object004.mesa_Object004]
+[2017.08.01-18.32.46:710][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object004]
+[2017.08.01-18.32.46:722][400]LogSavePackage: Save=10.64ms
+[2017.08.01-18.32.46:722][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Object004_Auto1C8FE401148517709434DA8A6F6B190D6.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object004_Auto1.uasset'
+[2017.08.01-18.32.46:723][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object004_Auto1.uasset
+[2017.08.01-18.32.46:724][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box003] ([1] browsable assets)...
+[2017.08.01-18.32.46:741][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box003.mesa_Box003]
+[2017.08.01-18.32.46:741][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box003]
+[2017.08.01-18.32.46:753][400]LogSavePackage: Save=10.20ms
+[2017.08.01-18.32.46:753][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Box003_Auto1A665B0FB4092588D8F86EDBBF3358945.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box003_Auto1.uasset'
+[2017.08.01-18.32.46:754][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Box003_Auto1.uasset
+[2017.08.01-18.32.46:755][400]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object005] ([1] browsable assets)...
+[2017.08.01-18.32.46:772][400]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object005.mesa_Object005]
+[2017.08.01-18.32.46:772][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object005]
+[2017.08.01-18.32.46:785][400]LogSavePackage: Save=11.49ms
+[2017.08.01-18.32.46:785][400]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/mesa_Object005_Auto1B38E78FB4ACE45A14E0D21BB1D8A767D.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object005_Auto1.uasset'
+[2017.08.01-18.32.46:786][400]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/PostWar/Models/MesaReunion/mesa_Object005_Auto1.uasset
+[2017.08.01-18.32.46:786][400]LogFileHelpers: Auto-saving content packages took 0.389
+[2017.08.01-18.50.11:981][675]Cmd: DELETE
+[2017.08.01-18.50.11:981][675]Cmd: ACTOR DELETE
+[2017.08.01-18.50.11:982][675]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.01-18.50.11:997][675]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.08.01-18.50.31:953][ 37]LogSavePackage: Save=1440.49ms
+[2017.08.01-18.50.31:953][ 37]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Mapa1FE72AA14DFF05A558D7B4B5D5E00C0E.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap'
+[2017.08.01-18.50.31:960][ 37]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/Mapa.umap
+[2017.08.01-18.50.32:018][ 37]LogFileHelpers: Saving map 'Mapa' took 1.678
+[2017.08.01-18.50.32:378][ 38]Cmd: QUIT_EDITOR
+[2017.08.01-18.50.32:405][ 38]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.01-18.50.32:417][ 38]LogExit: Preparing to exit.
+[2017.08.01-18.50.33:336][ 38]LogExit: Editor shut down
+[2017.08.01-18.50.33:341][ 38]LogExit: Transaction tracking system shut down
+[2017.08.01-18.50.33:515][ 38]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.01-18.50.33:515][ 38]LogExit: Object subsystem successfully closed.
+[2017.08.01-18.50.33:560][ 38]LogD3D11RHI: Shutdown
+[2017.08.01-18.50.33:560][ 38]LogD3D11RHI: CleanupD3DDevice
+[2017.08.01-18.50.33:708][ 38]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.01-18.50.33:719][ 38]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.01-18.50.33:719][ 38]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.01-18.50.33:719][ 38]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.01-18.50.33:719][ 38]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.01-18.50.33:720][ 38]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.01-18.50.33:721][ 38]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Collections/' was aborted.
+[2017.08.01-18.50.33:721][ 38]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Developers/cripe/Collections/' was aborted.
+[2017.08.01-18.50.33:721][ 38]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Collections/' was aborted.
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.01-18.50.33:721][ 38]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.01-18.50.33:722][ 38]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.01-18.50.34:408][ 38]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.01-18.50.34:472][ 38]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.01-18.50.34:472][ 38]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.01-18.50.34:472][ 38]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.01-18.50.34:472][ 38]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.01-18.50.34:472][ 38]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.01-18.50.34:472][ 38]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.01-18.50.34:473][ 38]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.01-18.50.34:473][ 38]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.01-18.50.34:473][ 38]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.01-18.50.34:473][ 38]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.01-18.50.34:476][ 38]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.01-18.50.34:476][ 38]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.01-18.50.34:476][ 38]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.01-18.50.34:476][ 38]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.01-18.50.34:476][ 38]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.01-18.50.34:477][ 38]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.01-18.50.34:581][ 38]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.01-18.50.34:582][ 38]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.01-18.50.34:583][ 38]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.01-18.50.34:583][ 38]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.01-18.50.34:583][ 38]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.01-18.50.34:583][ 38]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.01-18.50.34:583][ 38]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.01-18.50.34:583][ 38]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.01-18.50.34:583][ 38]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.01-18.50.34:583][ 38]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.01-18.50.34:584][ 38]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.01-18.50.34:684][ 38]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.01-18.50.34:784][ 38]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.01-18.50.34:784][ 38]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.01-18.50.34:784][ 38]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.01-18.50.34:784][ 38]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.01-18.50.34:784][ 38]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.01-18.50.34:784][ 38]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.01-18.50.34:786][ 38]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.01-18.50.34:787][ 38]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.01-18.50.34:787][ 38]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.01-18.50.34:787][ 38]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.01-18.50.34:787][ 38]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.01-18.50.34:787][ 38]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.01-18.50.34:787][ 38]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.01-18.50.34:789][ 38]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.01-18.50.34:789][ 38]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.01-18.50.34:789][ 38]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.01-18.50.34:789][ 38]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.01-18.50.34:789][ 38]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.01-18.50.34:789][ 38]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.01-18.50.35:002][ 38]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.01-18.50.35:002][ 38]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/' was aborted.
+[2017.08.01-18.50.35:002][ 38]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.01-18.50.35:002][ 38]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.01-18.50.35:006][ 38]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.01-18.50.35:007][ 38]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.01-18.50.35:007][ 38]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.01-18.50.35:007][ 38]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.01-18.50.35:007][ 38]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.01-18.50.35:007][ 38]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.01-18.50.35:007][ 38]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.01-18.50.35:007][ 38]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.01-18.50.35:007][ 38]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.01-18.50.35:063][ 38]LogDerivedDataCache: Shutdown
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.01-18.50.35:063][ 38]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.01-18.50.35:064][ 38]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.01-18.50.35:064][ 38]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.01-18.50.35:064][ 38]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.01-18.50.35:064][ 38]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B27DB44A1-4E47-21B7-85AF-D48242D8DB45%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=78865e4d4a8ae815e8d400bc6125e577%7C5361294e5f654db5881228f5582e9124%7C456667b1-22e8-45ef-a524-8410a492a64f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.01-18.50.35:074][ 38]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.01-18.50.35:076][ 38]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.01-18.50.35:076][ 38]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.01-18.50.35:076][ 38]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.01-18.50.35:076][ 38]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.01-18.50.35:076][ 38]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.01-18.50.35:076][ 38]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.01-18.50.35:076][ 38]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.01-18.50.35:076][ 38]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.01-18.50.35:077][ 38]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.01-18.50.35:079][ 38]LogExit: Exiting.
+[2017.08.01-18.50.35:107][ 38]Log file closed, 08/01/17 20:50:35
