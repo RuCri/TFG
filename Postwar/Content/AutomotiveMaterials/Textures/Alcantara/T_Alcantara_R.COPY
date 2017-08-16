@@ -1,0 +1,12 @@
+Begin Object Class=/Script/Engine.Texture2D Name="T_Alcantara_R"
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   ImportedSize=(X=8192,Y=8192)
+   Source=(Id=A129413E4A6B3E0B4DEA09A08227F827,SizeX=8192,SizeY=8192,NumSlices=1,NumMips=1,bPNGCompressed=True,Format=TSF_G8)
+   LightingGuid=B2F2BC684A1F79C724C741BD3B0049FC
+   AssetImportData=AssetImportData'AssetImportData'
+   SRGB=False
+   bUseLegacyGamma=True
+End Object
