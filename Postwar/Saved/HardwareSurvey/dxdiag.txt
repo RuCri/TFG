@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 7/20/2017, 20:20:00
+      Time of this report: 8/20/2017, 11:49:27
              Machine name: DESKTOP-T9NOKQO
                Machine Id: {619F85B1-48A8-4D8E-B2A9-59D77140FB0E}
          Operating System: Windows 10 Home 64-bit (10.0, Build 14393) (14393.rs1_release_sec.170427-1353)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz (8 CPUs), ~2.5GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16304MB RAM
-                Page File: 11921MB used, 6814MB available
+                Page File: 8724MB used, 11034MB available
               Windows Dir: C:\Windows
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -342,12 +342,6 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
-      Device Name: Wireless Controller
-         Attached: 1
-    Controller ID: 0x1
-Vendor/Product ID: 0x054C, 0x09CC
-        FF Driver: n/a
-
       Device Name: MSI EPF USB
          Attached: 1
     Controller ID: 0x0
@@ -379,7 +373,7 @@ USB Devices
 | 
 +-+ Dispositivo de entrada USB
 | | Vendor/Product ID: 0x1D57, 0xAD17
-| | Location: Port_#0001.Hub_#0003
+| | Location: Port_#0002.Hub_#0003
 | | Matching Device ID: USB\Class_03&SubClass_01
 | | Service: HidUsb
 | | Driver: hidusb.sys, 8/6/2016 05:47:49, 38400 bytes
@@ -508,19 +502,19 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 33.7 GB
+ Free Space: 25.8 GB
 Total Space: 226.7 GB
 File System: NTFS
       Model: KINGSTON SM2280S3G2240G
 
       Drive: D:
- Free Space: 21.2 GB
+ Free Space: 19.5 GB
 Total Space: 122.1 GB
 File System: NTFS
       Model: TOSHIBA THNSNJ128G8NU
 
       Drive: E:
- Free Space: 86.6 GB
+ Free Space: 96.3 GB
 Total Space: 925.6 GB
 File System: NTFS
       Model: HGST HTS721010A9E630
@@ -1421,18 +1415,17 @@ P9:
 P10: 
 
 Archivos adjuntos:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERDFBE.tmp.WERInternalMetadata.xml
 
 Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_7c7de8a7
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_731eb797
 
 Símbolo de análisis: 
 Nueva búsqueda de una solución: 0
-Identificador de informe: 0eef36c1-6d75-11e7-bcde-28b2bdcc90e2
+Identificador de informe: 20301c0c-858c-11e7-bce7-28b2bdcc90e2
 Estado del informe: 0
 Depósito con algoritmo hash: 6f43b753922e59b475b15a2caa136b09
 +++ WER1 +++:
-Depósito con errores , tipo 0
+Depósito con errores 127882684159, tipo 5
 Nombre de evento: StoreAgentScanForUpdatesFailure0
 Respuesta: No disponible
 Identificador de archivo CAB: 0
@@ -1450,105 +1443,18 @@ P9:
 P10: 
 
 Archivos adjuntos:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERDFBE.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERF74.tmp.WERInternalMetadata.xml
 
 Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_cab_5525dfbe
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_731eb67e
 
 Símbolo de análisis: 
 Nueva búsqueda de una solución: 0
-Identificador de informe: 0eef36c1-6d75-11e7-bcde-28b2bdcc90e2
-Estado del informe: 4
-Depósito con algoritmo hash: 
+Identificador de informe: 6d1d832f-858b-11e7-bce7-28b2bdcc90e2
+Estado del informe: 0
+Depósito con algoritmo hash: 6f43b753922e59b475b15a2caa136b09
 +++ WER2 +++:
-Depósito con errores 127882684159, tipo 5
-Nombre de evento: StoreAgentScanForUpdatesFailure0
-Respuesta: No disponible
-Identificador de archivo CAB: 0
-
-Firma del problema:
-P1: Update;
-P2: 80070422
-P3: 14393
-P4: 1198
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Archivos adjuntos:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERBD82.tmp.WERInternalMetadata.xml
-
-Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_7189c40a
-
-Símbolo de análisis: 
-Nueva búsqueda de una solución: 0
-Identificador de informe: dbb15f6a-6d52-11e7-bcde-28b2bdcc90e2
-Estado del informe: 0
-Depósito con algoritmo hash: 6f43b753922e59b475b15a2caa136b09
-+++ WER3 +++:
-Depósito con errores , tipo 0
-Nombre de evento: StoreAgentScanForUpdatesFailure0
-Respuesta: No disponible
-Identificador de archivo CAB: 0
-
-Firma del problema:
-P1: Update;
-P2: 80070422
-P3: 14393
-P4: 1198
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Archivos adjuntos:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERBD82.tmp.WERInternalMetadata.xml
-
-Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_cab_6909bd91
-
-Símbolo de análisis: 
-Nueva búsqueda de una solución: 0
-Identificador de informe: dbb15f6a-6d52-11e7-bcde-28b2bdcc90e2
-Estado del informe: 4
-Depósito con algoritmo hash: 
-+++ WER4 +++:
-Depósito con errores 127882684159, tipo 5
-Nombre de evento: StoreAgentScanForUpdatesFailure0
-Respuesta: No disponible
-Identificador de archivo CAB: 0
-
-Firma del problema:
-P1: Update;
-P2: 80070422
-P3: 14393
-P4: 1198
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-Archivos adjuntos:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER85A2.tmp.WERInternalMetadata.xml
-
-Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_4e768fd3
-
-Símbolo de análisis: 
-Nueva búsqueda de una solución: 0
-Identificador de informe: 5ebf0a58-6d23-11e7-bcde-28b2bdcc90e2
-Estado del informe: 0
-Depósito con algoritmo hash: 6f43b753922e59b475b15a2caa136b09
-+++ WER5 +++:
-Depósito con errores 116369471892, tipo 5
+Depósito con errores 116369652694, tipo 5
 Nombre de evento: BEX64
 Respuesta: No disponible
 Identificador de archivo CAB: 0
@@ -1560,7 +1466,7 @@ P3: 58f8034c
 P4: nvxdsyncplugin.dll_unloaded
 P5: 8.17.13.8189
 P6: 58f7fa17
-P7: 0000000000047bc1
+P7: 0000000000046bf9
 P8: c0000005
 P9: 0000000000000008
 P10: 
@@ -1568,13 +1474,97 @@ P10:
 Archivos adjuntos:
 
 Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_NVDisplay.Contai_7c97e293e3f8e0bb12a98ed1c382543767c8c3_b6edda02_4e768e8b
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_731eb584
 
 Símbolo de análisis: 
 Nueva búsqueda de una solución: 0
-Identificador de informe: 999470c2-2fc4-4577-bff6-56a3844cc515
+Identificador de informe: 7e7a50be-e366-4b57-9248-e649fea2e276
 Estado del informe: 0
-Depósito con algoritmo hash: ece8b88efbd8e03b3eda4aba9778a2a5
+Depósito con algoritmo hash: c4362ab6fabcfa4ce85bd1f2b5dc1fd6
++++ WER3 +++:
+Depósito con errores 116369652694, tipo 5
+Nombre de evento: BEX64
+Respuesta: No disponible
+Identificador de archivo CAB: 0
+
+Firma del problema:
+P1: NVDisplay.Container.exe
+P2: 1.2.0.0
+P3: 58f8034c
+P4: nvxdsyncplugin.dll_unloaded
+P5: 8.17.13.8189
+P6: 58f7fa17
+P7: 0000000000046bf9
+P8: c0000005
+P9: 0000000000000008
+P10: 
+
+Archivos adjuntos:
+
+Es posible que estos archivos estén disponibles aquí:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_731eb40d
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Identificador de informe: 786b8dab-e91b-4e1b-bd39-d892e2f5b4ea
+Estado del informe: 0
+Depósito con algoritmo hash: c4362ab6fabcfa4ce85bd1f2b5dc1fd6
++++ WER4 +++:
+Depósito con errores 116369652694, tipo 5
+Nombre de evento: BEX64
+Respuesta: No disponible
+Identificador de archivo CAB: 0
+
+Firma del problema:
+P1: NVDisplay.Container.exe
+P2: 1.2.0.0
+P3: 58f8034c
+P4: nvxdsyncplugin.dll_unloaded
+P5: 8.17.13.8189
+P6: 58f7fa17
+P7: 0000000000046bf9
+P8: c0000005
+P9: 0000000000000008
+P10: 
+
+Archivos adjuntos:
+
+Es posible que estos archivos estén disponibles aquí:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_731eb286
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Identificador de informe: bfbd1c42-6e55-4ace-8ead-e039602bca22
+Estado del informe: 0
+Depósito con algoritmo hash: c4362ab6fabcfa4ce85bd1f2b5dc1fd6
++++ WER5 +++:
+Depósito con errores 116369652694, tipo 5
+Nombre de evento: BEX64
+Respuesta: No disponible
+Identificador de archivo CAB: 0
+
+Firma del problema:
+P1: NVDisplay.Container.exe
+P2: 1.2.0.0
+P3: 58f8034c
+P4: nvxdsyncplugin.dll_unloaded
+P5: 8.17.13.8189
+P6: 58f7fa17
+P7: 0000000000046bf9
+P8: c0000005
+P9: 0000000000000008
+P10: 
+
+Archivos adjuntos:
+
+Es posible que estos archivos estén disponibles aquí:
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_731eb100
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Identificador de informe: eed81a47-77c6-4efe-a7c3-f967f362a365
+Estado del informe: 0
+Depósito con algoritmo hash: c4362ab6fabcfa4ce85bd1f2b5dc1fd6
 +++ WER6 +++:
 Depósito con errores 116369652694, tipo 5
 Nombre de evento: BEX64
@@ -1594,17 +1584,17 @@ P9: 0000000000000008
 P10: 
 
 Archivos adjuntos:
-\\?\C:\Windows\Temp\WERC87B.tmp.appcompat.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERC89B.tmp.WERInternalMetadata.xml
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_cab_139dc8a9\memory.hdmp
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_cab_139dc8a9\triagedump.dmp
+\\?\C:\Windows\Temp\WER522E.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER523F.tmp.WERInternalMetadata.xml
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_cab_3774524c\memory.hdmp
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_cab_3774524c\triagedump.dmp
 
 Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_4e768d04
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_731eaf69
 
 Símbolo de análisis: 
 Nueva búsqueda de una solución: 0
-Identificador de informe: 57650154-dee8-45c0-9ee5-d7aeee12eb9f
+Identificador de informe: e3ac2b91-b598-4734-8e38-cfd2d776e62a
 Estado del informe: 0
 Depósito con algoritmo hash: c4362ab6fabcfa4ce85bd1f2b5dc1fd6
 +++ WER7 +++:
@@ -1626,15 +1616,14 @@ P9:
 P10: 
 
 Archivos adjuntos:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER85A2.tmp.WERInternalMetadata.xml
 
 Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_cab_7f3285a2
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_ad2c8f73e4b24f3ba522f292a03f99a63b4f83fa_00000000_31b6a4ea
 
 Símbolo de análisis: 
 Nueva búsqueda de una solución: 0
-Identificador de informe: 5ebf0a58-6d23-11e7-bcde-28b2bdcc90e2
-Estado del informe: 4
+Identificador de informe: 20301c0c-858c-11e7-bce7-28b2bdcc90e2
+Estado del informe: 4100
 Depósito con algoritmo hash: 
 +++ WER8 +++:
 Depósito con errores , tipo 0
@@ -1649,7 +1638,7 @@ P3: 58f8034c
 P4: nvxdsyncplugin.dll_unloaded
 P5: 8.17.13.8189
 P6: 58f7fa17
-P7: 0000000000047bc1
+P7: 0000000000046bf9
 P8: c0000005
 P9: 0000000000000008
 P10: 
@@ -1657,11 +1646,11 @@ P10:
 Archivos adjuntos:
 
 Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_7c97e293e3f8e0bb12a98ed1c382543767c8c3_b6edda02_086dca10
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_04705634
 
 Símbolo de análisis: 
 Nueva búsqueda de una solución: 0
-Identificador de informe: 999470c2-2fc4-4577-bff6-56a3844cc515
+Identificador de informe: 7e7a50be-e366-4b57-9248-e649fea2e276
 Estado del informe: 2
 Depósito con algoritmo hash: 
 +++ WER9 +++:
@@ -1683,16 +1672,12 @@ P9: 0000000000000008
 P10: 
 
 Archivos adjuntos:
-\\?\C:\Windows\Temp\WERC87B.tmp.appcompat.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERC89B.tmp.WERInternalMetadata.xml
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_cab_139dc8a9\memory.hdmp
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_cab_139dc8a9\triagedump.dmp
 
 Es posible que estos archivos estén disponibles aquí:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_cab_139dc8a9
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_NVDisplay.Contai_44f28dfa95ff609d26e1a445a54674b8bb4ba5e2_b6edda02_380055a8
 
 Símbolo de análisis: 
 Nueva búsqueda de una solución: 0
-Identificador de informe: 57650154-dee8-45c0-9ee5-d7aeee12eb9f
+Identificador de informe: 786b8dab-e91b-4e1b-bd39-d892e2f5b4ea
 Estado del informe: 2
 Depósito con algoritmo hash: 
