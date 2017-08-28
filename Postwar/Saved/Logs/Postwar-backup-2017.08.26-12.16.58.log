@@ -1,0 +1,798 @@
+﻿Log file open, 08/25/17 17:39:19
+LogInit:Display: Running engine for game: Postwar
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-733468738) SRandInit(-733468738).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.118248
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.25-15.39.20:038][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.25-15.39.20:038][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.25-15.39.20:065][  0]LogInit: Computer: DESKTOP-T9NOKQO
+[2017.08.25-15.39.20:065][  0]LogInit: User: cripe
+[2017.08.25-15.39.20:065][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.25-15.39.20:065][  0]LogInit: High frequency timer resolution =2.435765 MHz
+[2017.08.25-15.39.20:066][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.25-15.39.20:066][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.25-15.39.20:066][  0]LogMemory: Process Physical Memory: 273.36 MB used, 273.36 MB peak
+[2017.08.25-15.39.20:066][  0]LogMemory: Process Virtual Memory: 263.25 MB used, 263.25 MB peak
+[2017.08.25-15.39.20:066][  0]LogMemory: Physical Memory: 6626.13 MB used,  9677.01 MB free, 16303.14 MB total
+[2017.08.25-15.39.20:066][  0]LogMemory: Virtual Memory: 626.64 MB used,  9677.01 MB free, 134217728.00 MB total
+[2017.08.25-15.39.20:236][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.08.25-15.39.20:236][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.08.25-15.39.21:535][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.25-15.39.22:176][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.08.25-15.39.22:176][  0]LogD3D11RHI:       2017/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.25-15.39.22:184][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.08.25-15.39.22:184][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.25-15.39.22:186][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.25-15.39.22:186][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.25-15.39.22:186][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.25-15.39.22:193][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.25-15.39.22:193][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
+[2017.08.25-15.39.22:194][  0]LogWindows: EnumDisplayDevices:
+[2017.08.25-15.39.22:194][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.08.25-15.39.22:194][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.08.25-15.39.22:194][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.25-15.39.22:194][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.25-15.39.22:194][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.08.25-15.39.22:194][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.25-15.39.22:194][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.25-15.39.22:195][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.25-15.39.22:764][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.25-15.39.22:807][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.25-15.39.22:815][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Intermediate/Shaders/WorkingDirectory/13260/).
+[2017.08.25-15.39.22:815][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cripe/AppData/Local/Temp/UnrealShaderWorkingDir/0D6EE5C64B513E04ACED74B05B2F1E67/'.
+[2017.08.25-15.39.22:816][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.25-15.39.24:049][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.25-15.39.24:096][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.25-15.39.24:142][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.25-15.39.24:189][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.25-15.39.24:237][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.25-15.39.24:283][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.25-15.39.24:329][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.25-15.39.24:376][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.25-15.39.24:416][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.25-15.39.24:462][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.25-15.39.24:512][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.25-15.39.24:558][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.25-15.39.24:605][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.25-15.39.24:658][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.25-15.39.24:709][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.25-15.39.24:809][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.25-15.39.24:809][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.25-15.39.24:854][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.25-15.39.24:947][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.25-15.39.24:974][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.25-15.39.25:020][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.25-15.39.25:065][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.25-15.39.25:113][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.25-15.39.25:162][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.25-15.39.25:162][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.25-15.39.25:654][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.25-15.39.26:009][  0]LogDerivedDataCache: Loaded boot cache 0.35s 90MB C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.25-15.39.26:009][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.25-15.39.26:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.25-15.39.26:010][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.25-15.39.26:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.25-15.39.26:010][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.25-15.39.26:032][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.25-15.39.26:046][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cripe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.25-15.39.26:060][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.25-15.39.26:066][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.25-15.39.26:071][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.25-15.39.26:071][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.25-15.39.26:933][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.25-15.39.27:092][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.25-15.39.27:299][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.25-15.39.27:355][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.25-15.39.27:411][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.25-15.39.27:411][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.25-15.39.27:411][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.25-15.39.28:250][  0]LogNetVersion: Postwar , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2296384490)
+[2017.08.25-15.39.28:326][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.08.25-15.39.28:422][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.077168 seconds
+[2017.08.25-15.39.28:440][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.25-15.39.28:440][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.25-15.39.28:440][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.25-15.39.28:497][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.25-15.39.32:339][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.25-15.39.32:386][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.25-15.39.33:032][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.25-15.39.33:602][  0]SourceControl: Info Source control is disabled
+[2017.08.25-15.39.33:705][  0]SourceControl: Info Source control is disabled
+[2017.08.25-15.39.33:770][  0]SourceControl: Info Source control is disabled
+[2017.08.25-15.39.33:830][  0]SourceControl: Info Source control is disabled
+[2017.08.25-15.39.34:641][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.25-15.39.35:251][  0]LogEngine: Initializing Engine...
+[2017.08.25-15.39.35:254][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.25-15.39.35:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.25-15.39.35:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.25-15.39.35:642][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.25-15.39.35:663][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-15.39.35:681][  0]LogInit: FAudioDevice initialized.
+[2017.08.25-15.39.35:728][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/cripe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.25-15.39.35:733][  0]LogInit: Texture streaming: Enabled
+[2017.08.25-15.39.35:816][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.25-15.39.36:048][  0]LogInit: Transaction tracking system initialized
+[2017.08.25-15.39.36:433][  0]BlueprintLog: New page: Editor Load
+[2017.08.25-15.39.37:358][  0]LocalizationService: Info Localization service is disabled
+[2017.08.25-15.39.38:041][  0]LogConsoleResponse:Display: 
+[2017.08.25-15.39.38:297][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.25-15.39.38:297][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.25-15.39.38:531][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/' took 0.05s
+[2017.08.25-15.39.39:351][  0]SourceControl: Info Source control is disabled
+[2017.08.25-15.39.39:353][  0]Cmd: MAP LOAD FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/PostWar/Niveles/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.25-15.39.39:398][  0]LightingResults: New page: Lighting Build
+[2017.08.25-15.39.39:446][  0]MapCheck: New page: Map Check
+[2017.08.25-15.39.39:446][  0]LightingResults: New page: Lighting Build
+[2017.08.25-15.39.41:479][  0]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-15.39.41:479][  0]LogBlueprint:Warning: [WeaponParent] 'Opac' variable not found. Base class was probably changed.
+[2017.08.25-15.39.41:595][  0]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-15.39.42:666][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.25-15.39.42:671][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.25-15.39.42:707][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.25-15.39.42:794][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.647ms to complete.
+[2017.08.25-15.39.42:794][  0]LogFileHelpers: Loading map 'MainMenu' took 3.442
+[2017.08.25-15.39.43:020][  0]LogCollectionManager: Loaded 0 collections in 0.001883 seconds
+[2017.08.25-15.39.43:117][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Collections/' took 0.01s
+[2017.08.25-15.39.43:117][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Developers/cripe/Collections/' took 0.01s
+[2017.08.25-15.39.43:117][  0]LogFileCache: Scanning file cache for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Collections/' took 0.01s
+[2017.08.25-15.39.43:117][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.25-15.39.43:128][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2329 classes and 491 folders.
+[2017.08.25-15.39.43:190][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.25-15.39.43:320][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.25-15.39.43:368][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.25-15.39.43:534][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.25-15.39.43:549][  0]LogSlate: Took 0.001511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.25-15.39.43:552][  0]LogSlate: Took 0.001329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.25-15.39.43:560][  0]LogSlate: Took 0.001602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.25-15.39.43:695][  0]LogRenderer: Reallocating scene render targets to support 1208x672 NumSamples 1 (Frame:1).
+[2017.08.25-15.39.43:918][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.25-15.39.43:985][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.25-15.39.43:985][  0]LogLoad: (Engine Initialization) Total time: 26.55 seconds
+[2017.08.25-15.39.43:985][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.54 seconds
+[2017.08.25-15.39.43:985][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.25-15.39.43:985][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.25-15.39.44:325][  0]LogOcInput: OculusInput pre-init called
+[2017.08.25-15.39.44:325][  0]LogHMD: Starting GearVRController plugin
+[2017.08.25-15.39.44:364][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.25-15.39.44:402][  0]LogSlate: Took 0.001374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.25-15.39.45:341][  3]LogAssetRegistry: Asset discovery search completed in 17.0374 seconds
+[2017.08.25-15.39.45:345][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.25-15.39.45:345][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.08.25-15.39.49:991][ 17]LogFileCache: Retrieving MD5 hashes for directory 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/' took 5.65s
+[2017.08.25-15.41.12:583][331]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.25-15.41.13:033][331]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.08.25-15.41.13:644][331]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.25-15.41.13:873][331]LogSlate: Took 0.001333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.25-15.41.14:038][332]LogSlate: Took 0.001562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.25-15.50.07:596][648]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.50.07:661][648]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.25-15.55.44:407][307]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.44:806][322]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.45:210][340]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.45:454][349]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.45:678][357]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.45:886][364]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.46:109][372]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.46:318][379]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.46:492][384]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.46:719][392]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.46:923][404]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.47:147][412]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.47:316][416]LogEditorTransaction: Undo Change String Pin Value
+[2017.08.25-15.55.47:548][421]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.47:548][421]LogEditorTransaction: Undo Change String Pin Value
+[2017.08.25-15.55.47:632][421]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/MainMenu' took 0.047
+[2017.08.25-15.55.49:571][421]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.25-15.55.49:572][421]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.49:572][421]LogEditorTransaction: Undo Change String Pin Value
+[2017.08.25-15.55.49:603][421]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.49:603][421]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.49:624][421]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.08.25-15.55.49:624][421]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.25-15.55.50:317][421]LogSavePackage: Save=594.16ms
+[2017.08.25-15.55.50:317][421]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter_Auto120CA4845441E71FFC0A9A8B16C98841F.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2017.08.25-15.55.50:357][421]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
+[2017.08.25-15.55.50:357][421]LogFileHelpers: Auto-saving content packages took 2.724
+[2017.08.25-15.55.51:039][457]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.51:039][457]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.51:463][474]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.51:463][474]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.25-15.55.51:684][481]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.51:684][481]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.51:909][489]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.51:909][489]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.25-15.55.52:116][496]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.52:116][496]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-15.55.52:338][504]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.52:338][504]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-15.55.52:513][509]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.52:513][509]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-15.55.52:720][516]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.52:720][516]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.52:935][523]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.52:935][523]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.53:157][531]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.53:157][531]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.53:414][541]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.53:414][541]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-15.55.53:624][548]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.53:624][548]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-15.55.53:881][558]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.53:881][558]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.54:089][565]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.54:089][565]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.54:315][573]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.54:315][573]LogEditorTransaction: Undo Delete current selection
+[2017.08.25-15.55.54:526][580]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.54:526][580]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-15.55.54:743][593]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.54:743][593]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.54:920][598]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.54:920][598]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.55:142][606]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.55:142][606]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.55:313][611]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.55:313][611]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.55.55:570][621]Cmd: TRANSACTION UNDO
+[2017.08.25-15.55.55:570][621]LogEditorTransaction: Undo Move Node
+[2017.08.25-15.56.00:716][922]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.25-15.56.00:893][922]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-15.56.02:449][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.25-15.56.03:046][978]LogSavePackage: Save=594.22ms
+[2017.08.25-15.56.03:046][978]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter9E818ADB45F2FF2F9457FAA684061B72.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.25-15.56.03:049][978]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.25-16.15.34:749][211]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/MainMenu' took 0.027
+[2017.08.25-16.15.34:751][211]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.25-16.15.34:768][211]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.08.25-16.15.34:768][211]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.25-16.15.38:001][211]LogSavePackage: Save=580.33ms
+[2017.08.25-16.15.38:001][211]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter_Auto21682FD8E4D157D8C635F9AACAADE01AB.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2017.08.25-16.15.38:024][211]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2017.08.25-16.15.38:025][211]LogFileHelpers: Auto-saving content packages took 3.275
+[2017.08.25-16.31.55:505][162]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/MainMenu' took 0.019
+[2017.08.25-16.31.55:508][162]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.25-16.31.55:508][162]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.25-16.31.56:043][162]LogSavePackage: Save=528.05ms
+[2017.08.25-16.31.56:043][162]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter_Auto36CD35D8244EFD2A9756D0691AD2F1248.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2017.08.25-16.31.58:703][162]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
+[2017.08.25-16.31.58:703][162]LogFileHelpers: Auto-saving content packages took 3.197
+[2017.08.25-18.26.53:473][ 68]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.25-18.26.53:642][ 68]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-18.26.54:801][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.25-18.26.57:344][ 92]LogSavePackage: Save=2537.13ms
+[2017.08.25-18.26.57:344][ 92]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacterADF1BD7D4502362824BCB59CDDAFA7FD.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.25-18.26.57:347][ 92]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.25-18.27.09:341][740]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.25-18.27.09:497][740]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-18.27.10:534][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.25-18.27.11:092][764]LogSavePackage: Save=554.09ms
+[2017.08.25-18.27.11:092][764]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter5C42B10543094A6F9DFD11A01BA4800E.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.25-18.27.11:095][764]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.25-18.32.43:783][139]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/MainMenu' took 0.023
+[2017.08.25-18.32.43:786][139]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.25-18.32.43:786][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.25-18.32.44:371][139]LogSavePackage: Save=579.77ms
+[2017.08.25-18.32.44:371][139]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter_Auto42504C30D49DB356A0EC7F7BFC48D9F0C.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2017.08.25-18.32.44:373][139]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset
+[2017.08.25-18.32.44:373][139]LogFileHelpers: Auto-saving content packages took 0.589
+[2017.08.25-18.37.16:476][682]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.25-18.37.16:634][682]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-18.37.17:652][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.25-18.37.18:170][704]LogSavePackage: Save=514.22ms
+[2017.08.25-18.37.18:170][704]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter545ED4024F2424C6100F049415F97760.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.25-18.37.18:173][704]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.25-19.13.03:710][867]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  dejarDe apuntar  and was replaced as a Custom Event!
+[2017.08.25-19.13.03:843][867]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  dejarDe apuntar  and was replaced as a Custom Event!
+[2017.08.25-19.15.41:007][796]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/MainMenu' took 0.031
+[2017.08.25-19.15.41:010][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.25-19.15.41:026][796]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.08.25-19.15.41:026][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.25-19.15.42:867][796]LogSavePackage: Save=1834.90ms
+[2017.08.25-19.15.42:871][796]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter_Auto5836AAFA8444469B81E1F16A90D00D2A0.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2017.08.25-19.15.42:888][796]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset
+[2017.08.25-19.15.42:888][796]LogFileHelpers: Auto-saving content packages took 1.880
+[2017.08.25-20.00.52:953][439]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.25-20.00.59:244][767]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.25-20.00.59:419][767]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-20.01.00:449][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.25-20.01.00:987][781]LogSavePackage: Save=531.32ms
+[2017.08.25-20.01.00:987][781]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter20A6294B4D73703499FA06B78142EC91.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.25-20.01.00:990][781]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.25-20.01.51:132][744]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.01.52:101][793]LogEditorTransaction: Undo Delete current selection
+[2017.08.25-20.01.52:869][834]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.01.54:152][911]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.04.21:438][221]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.06:342][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/MainMenu' took 0.033
+[2017.08.25-20.08.06:344][ 38]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.25-20.08.06:362][ 38]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.08.25-20.08.06:362][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.25-20.08.07:000][ 38]LogSavePackage: Save=632.45ms
+[2017.08.25-20.08.07:000][ 38]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter_Auto663A023984C7971B11DF2339D75F5993A.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset'
+[2017.08.25-20.08.07:025][ 38]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset
+[2017.08.25-20.08.07:026][ 38]LogFileHelpers: Auto-saving content packages took 0.683
+[2017.08.25-20.08.16:636][344]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.17:117][363]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.17:323][370]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.17:531][377]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.17:747][385]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.17:930][391]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.18:143][399]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.18:373][408]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.18:552][414]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.18:768][422]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.18:948][428]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.19:149][435]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.19:337][446]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.19:521][452]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.19:700][458]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.19:867][463]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.20:096][472]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.20:274][478]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.20:491][486]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.20:671][492]LogEditorTransaction: Undo Create Reroute Node
+[2017.08.25-20.08.20:878][499]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.22:111][568]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.22:324][576]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.22:457][579]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.22:640][585]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.22:852][593]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.23:036][599]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.23:254][607]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.23:467][615]LogEditorTransaction: Undo Change String Pin Value
+[2017.08.25-20.08.23:656][621]LogEditorTransaction: Undo Change String Pin Value
+[2017.08.25-20.08.23:834][627]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.24:049][635]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.25-20.08.24:220][640]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.24:436][648]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.25-20.08.24:614][654]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.24:875][665]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.25:052][671]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.25:263][679]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.25:489][688]LogEditorTransaction: Undo Change String Pin Value
+[2017.08.25-20.08.25:670][694]LogEditorTransaction: Undo Change String Pin Value
+[2017.08.25-20.08.25:883][702]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.26:100][715]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.26:279][721]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.26:490][729]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.26:665][735]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.26:926][746]LogEditorTransaction: Undo Create Pin Link
+[2017.08.25-20.08.27:093][756]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.27:321][765]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.27:497][771]LogEditorTransaction: Undo Delete current selection
+[2017.08.25-20.08.27:704][778]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.27:968][789]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.28:180][797]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.28:509][812]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.28:927][832]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.29:224][845]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.29:502][857]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.29:797][870]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.30:090][883]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.30:588][908]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.31:233][942]LogEditorTransaction: Undo Move Nodes
+[2017.08.25-20.08.31:781][970]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.31:981][977]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.32:212][986]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.34:162][ 98]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.34:595][119]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.35:241][153]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.35:454][161]LogEditorTransaction: Undo Delete current selection
+[2017.08.25-20.08.36:139][197]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.25-20.08.38:213][316]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.38:793][346]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.40:420][439]LogEditorTransaction: Undo Create Reroute Node
+[2017.08.25-20.08.40:659][448]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.41:772][510]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.42:820][568]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.43:182][585]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.43:427][595]LogEditorTransaction: Redo Create Reroute Node
+[2017.08.25-20.08.43:608][601]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.43:836][610]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.44:012][616]LogEditorTransaction: Redo Paste clipboard contents
+[2017.08.25-20.08.44:022][616]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.FirstPersonCharacter_C_1.CollisionCylinder) Component already registered.
+[2017.08.25-20.08.44:190][621]LogEditorTransaction: Redo Delete current selection
+[2017.08.25-20.08.44:409][629]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.44:626][637]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.44:872][647]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.45:087][655]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.45:299][663]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.45:596][676]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.45:876][688]LogEditorTransaction: Redo Move Nodes
+[2017.08.25-20.08.46:273][707]LogEditorTransaction: Redo Move Nodes
+[2017.08.25-20.08.46:700][728]LogEditorTransaction: Redo Move Nodes
+[2017.08.25-20.08.47:246][756]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.47:575][771]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.48:551][825]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.49:101][853]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.49:780][889]LogEditorTransaction: Redo Move Nodes
+[2017.08.25-20.08.50:243][912]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.50:757][938]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.51:217][961]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.51:680][984]LogEditorTransaction: Redo Delete current selection
+[2017.08.25-20.08.51:690][984]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.FirstPersonCharacter_C_1.CollisionCylinder) Component already registered.
+[2017.08.25-20.08.52:189][  9]LogEditorTransaction: Redo Move Node
+[2017.08.25-20.08.54:518][144]LogEditorTransaction: Undo Move Node
+[2017.08.25-20.08.57:914][338]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.25-20.08.58:072][338]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-20.08.58:152][338]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:equiparArma.K2Node_VariableSet_0 or K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:equiparArma.K2Node_VariableSet_0
+[2017.08.25-20.08.58:152][338]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:equiparArma.K2Node_VariableSet_0 or K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:equiparArma.K2Node_VariableSet_0
+[2017.08.25-20.08.59:524][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.25-20.09.00:051][367]LogSavePackage: Save=523.14ms
+[2017.08.25-20.09.00:051][367]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacterC84A25C94AF075EF3BAC81BF4C465DAA.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.25-20.09.00:054][367]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.25-20.25.32:469][116]LogSlate: Took 0.001140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.25-20.52.58:916][864]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  dejarDe apuntar  and was replaced as a Custom Event!
+[2017.08.25-20.52.59:054][864]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  dejarDe apuntar  and was replaced as a Custom Event!
+[2017.08.25-20.53.47:263][ 15]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/MainMenu' took 0.033
+[2017.08.25-20.53.47:266][ 15]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.25-20.53.47:281][ 15]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.08.25-20.53.47:281][ 15]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.25-20.53.47:839][ 15]LogSavePackage: Save=551.78ms
+[2017.08.25-20.53.47:839][ 15]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter_Auto79B61112748A6CD9F93EB4C937AED68C2.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto7.uasset'
+[2017.08.25-20.53.47:898][ 15]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto7.uasset
+[2017.08.25-20.53.47:898][ 15]LogFileHelpers: Auto-saving content packages took 0.634
+[2017.08.25-20.53.52:642][220]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.25-20.53.53:246][221]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.25-20.53.55:129][313]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.25-20.53.55:283][313]LogBlueprint:Warning: [WeaponParent] 'HUD reference' variable not found. Base class was probably changed.
+[2017.08.25-20.53.56:251][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2017.08.25-20.53.56:810][328]LogSavePackage: Save=555.06ms
+[2017.08.25-20.53.56:810][328]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/FirstPersonCharacter78A0B2F34AD20B397CAF4B9DD83172B0.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.25-20.53.56:813][328]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.25-21.22.32:894][973]LogRenderer: Reallocating scene render targets to support 1648x780 NumSamples 1 (Frame:1).
+[2017.08.25-21.22.38:144][245]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.25-21.22.38:323][245]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.25-21.22.38:393][245]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.25-21.22.38:779][245]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.08.25-21.22.38:786][246]LogRenderer: Reallocating scene render targets to support 1648x888 NumSamples 1 (Frame:1).
+[2017.08.25-21.22.40:633][336]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.08.25-21.22.40:681][336]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.08.25-21.23.13:572][187]Cmd: TRANSACTION UNDO
+[2017.08.25-21.23.13:572][187]LogEditorTransaction: Undo Rotate Socket
+[2017.08.25-21.23.13:573][187]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.25-21.23.13:775][187]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.08.25-21.25.14:173][291]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/PostWar/Niveles/MainMenu' took 0.025
+[2017.08.25-21.25.16:819][291]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton] ([1] browsable assets)...
+[2017.08.25-21.25.16:822][291]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton]
+[2017.08.25-21.25.16:843][291]LogSavePackage: Save=14.09ms
+[2017.08.25-21.25.16:843][291]LogSavePackage: Moving 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/SK_Mannequin_Arms_Skeleton_Auto8EAF8968F4F0774A8332E60816F067F99.tmp' to 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton_Auto8.uasset'
+[2017.08.25-21.25.16:859][291]LogSavePackage:Display: Finished SavePackage E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Autosaves/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton_Auto8.uasset
+[2017.08.25-21.25.16:859][291]LogFileHelpers: Auto-saving content packages took 2.685
+[2017.08.25-21.32.33:766][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.25-21.32.33:889][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.25-21.32.37:867][651]Cmd: QUIT_EDITOR
+[2017.08.25-21.32.37:896][651]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.25-21.32.37:910][651]LogExit: Preparing to exit.
+[2017.08.25-21.32.39:289][651]LogExit: Editor shut down
+[2017.08.25-21.32.39:321][651]LogExit: Transaction tracking system shut down
+[2017.08.25-21.32.39:618][651]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.25-21.32.39:620][651]LogExit: Object subsystem successfully closed.
+[2017.08.25-21.32.39:674][651]LogD3D11RHI: Shutdown
+[2017.08.25-21.32.39:674][651]LogD3D11RHI: CleanupD3DDevice
+[2017.08.25-21.32.39:814][651]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.25-21.32.39:845][651]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (534)
+[2017.08.25-21.32.39:846][651]LogModuleManager: Shutting down and abandoning module SkeletonEditor (532)
+[2017.08.25-21.32.39:846][651]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (530)
+[2017.08.25-21.32.39:846][651]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.25-21.32.39:846][651]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.25-21.32.39:847][651]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.25-21.32.39:847][651]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.25-21.32.39:847][651]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.25-21.32.39:848][651]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.25-21.32.39:848][651]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.25-21.32.39:854][651]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.25-21.32.39:854][651]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.25-21.32.39:854][651]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.25-21.32.39:854][651]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Collections/' was aborted.
+[2017.08.25-21.32.39:854][651]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/Developers/cripe/Collections/' was aborted.
+[2017.08.25-21.32.39:854][651]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Saved/Collections/' was aborted.
+[2017.08.25-21.32.39:854][651]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.25-21.32.39:855][651]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.25-21.32.39:855][651]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.25-21.32.39:857][651]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.25-21.32.39:858][651]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.25-21.32.39:858][651]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.25-21.32.39:861][651]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.25-21.32.39:862][651]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.25-21.32.39:863][651]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.25-21.32.39:863][651]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.25-21.32.39:863][651]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.25-21.32.39:863][651]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.25-21.32.39:863][651]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.25-21.32.39:864][651]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.25-21.32.39:865][651]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.25-21.32.39:866][651]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.25-21.32.39:867][651]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.25-21.32.39:867][651]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.25-21.32.39:868][651]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.25-21.32.39:868][651]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.25-21.32.39:868][651]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.25-21.32.39:935][651]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.25-21.32.39:935][651]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.25-21.32.39:935][651]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.25-21.32.39:936][651]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.25-21.32.39:936][651]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.25-21.32.39:936][651]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.25-21.32.39:936][651]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.25-21.32.39:937][651]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.25-21.32.39:938][651]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.25-21.32.39:938][651]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.25-21.32.39:938][651]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.25-21.32.39:938][651]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.25-21.32.39:938][651]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.25-21.32.39:939][651]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.25-21.32.39:939][651]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.25-21.32.39:939][651]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.25-21.32.39:939][651]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.25-21.32.39:939][651]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.25-21.32.39:939][651]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.25-21.32.39:941][651]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.25-21.32.39:941][651]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.25-21.32.39:942][651]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.25-21.32.39:943][651]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.25-21.32.39:944][651]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.25-21.32.40:008][651]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.25-21.32.40:008][651]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.25-21.32.40:009][651]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.25-21.32.40:011][651]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.25-21.32.40:011][651]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.25-21.32.40:011][651]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.25-21.32.40:011][651]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.25-21.32.40:011][651]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.25-21.32.40:011][651]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.25-21.32.40:011][651]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.25-21.32.40:024][651]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.25-21.32.40:024][651]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.25-21.32.40:024][651]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.25-21.32.40:025][651]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.25-21.32.40:026][651]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.25-21.32.40:026][651]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.25-21.32.40:027][651]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.25-21.32.40:027][651]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.25-21.32.40:027][651]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.25-21.32.40:027][651]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.25-21.32.40:027][651]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.25-21.32.40:029][651]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.25-21.32.40:029][651]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.25-21.32.40:029][651]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.25-21.32.40:029][651]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.25-21.32.40:029][651]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.25-21.32.40:029][651]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.25-21.32.40:030][651]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.25-21.32.40:030][651]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.25-21.32.40:031][651]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.25-21.32.40:240][651]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.25-21.32.40:242][651]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.25-21.32.40:244][651]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.25-21.32.40:245][651]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.25-21.32.40:246][651]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.25-21.32.40:246][651]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.25-21.32.40:246][651]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.25-21.32.40:246][651]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.25-21.32.40:246][651]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.25-21.32.40:247][651]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.25-21.32.40:247][651]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.25-21.32.40:248][651]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.25-21.32.40:248][651]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.25-21.32.40:248][651]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.25-21.32.40:248][651]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.25-21.32.40:248][651]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.25-21.32.40:249][651]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.25-21.32.40:250][651]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.25-21.32.40:251][651]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.25-21.32.40:251][651]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.25-21.32.40:252][651]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.25-21.32.40:252][651]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.25-21.32.40:252][651]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.25-21.32.40:252][651]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.25-21.32.40:252][651]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.25-21.32.40:253][651]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.25-21.32.40:353][651]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.25-21.32.40:454][651]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.25-21.32.40:455][651]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.25-21.32.40:455][651]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.25-21.32.40:455][651]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.25-21.32.40:456][651]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.25-21.32.40:456][651]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.25-21.32.40:458][651]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.25-21.32.40:458][651]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.25-21.32.40:458][651]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.25-21.32.40:458][651]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.25-21.32.40:459][651]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.25-21.32.40:459][651]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.25-21.32.40:459][651]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.25-21.32.40:459][651]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.25-21.32.40:459][651]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.25-21.32.40:460][651]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.25-21.32.40:461][651]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.25-21.32.40:461][651]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.25-21.32.40:463][651]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.25-21.32.40:463][651]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.25-21.32.40:464][651]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.25-21.32.40:465][651]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.25-21.32.40:466][651]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.25-21.32.40:467][651]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.25-21.32.40:469][651]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.25-21.32.40:469][651]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.25-21.32.40:469][651]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.25-21.32.40:471][651]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.25-21.32.40:471][651]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.25-21.32.40:474][651]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.25-21.32.40:474][651]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.25-21.32.40:474][651]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.25-21.32.40:474][651]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.25-21.32.40:474][651]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.25-21.32.40:474][651]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.25-21.32.40:631][651]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.25-21.32.40:631][651]LogDirectoryWatcher: A directory notification for 'E:/Usuario/Ruben/UNIVERSIDAD/TFG/Postwar/Content/' was aborted.
+[2017.08.25-21.32.40:631][651]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.25-21.32.40:631][651]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.25-21.32.40:642][651]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.25-21.32.40:646][651]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.25-21.32.40:646][651]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.25-21.32.40:646][651]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.25-21.32.40:646][651]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.25-21.32.40:647][651]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.25-21.32.40:648][651]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.25-21.32.40:648][651]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.25-21.32.40:648][651]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.25-21.32.40:714][651]LogDerivedDataCache: Shutdown
+[2017.08.25-21.32.40:715][651]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.25-21.32.40:715][651]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.25-21.32.40:716][651]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.25-21.32.40:716][651]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.25-21.32.40:717][651]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.25-21.32.40:717][651]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.25-21.32.40:717][651]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.25-21.32.40:717][651]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.25-21.32.40:717][651]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.25-21.32.40:717][651]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.25-21.32.40:718][651]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.25-21.32.40:719][651]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.25-21.32.40:719][651]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.25-21.32.40:719][651]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.25-21.32.40:719][651]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.25-21.32.40:719][651]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.25-21.32.40:719][651]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.25-21.32.40:719][651]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.25-21.32.40:720][651]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.25-21.32.40:720][651]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.25-21.32.40:720][651]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.25-21.32.40:720][651]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.25-21.32.40:722][651]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.25-21.32.40:723][651]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.25-21.32.40:723][651]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.25-21.32.40:724][651]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF80DBC97-452B-E815-4ABB-E9A7AC95D210%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=78865e4d4a8ae815e8d400bc6125e577%7C5361294e5f654db5881228f5582e9124%7C456667b1-22e8-45ef-a524-8410a492a64f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.25-21.32.40:736][651]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.25-21.32.40:740][651]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.25-21.32.40:741][651]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.25-21.32.40:741][651]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.25-21.32.40:741][651]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.25-21.32.40:742][651]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.25-21.32.40:742][651]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.25-21.32.40:742][651]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.25-21.32.40:742][651]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.25-21.32.40:748][651]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.25-21.32.40:749][651]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.25-21.32.40:751][651]LogExit: Exiting.
+[2017.08.25-21.32.40:800][651]Log file closed, 08/25/17 23:32:40
